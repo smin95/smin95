@@ -14,7 +14,7 @@ title: Publications
 
 1. Xiaoxin Chen, Shijia Chen, Deying Kong, Junhan Wei, Yu Mao, Wenman Lin, Yiya Chen, Zhimo Yao, **Seung Hyun Min**, Fan Lu, Jia Qu, Robert F. Hess, Jiawei Zhou (2020). Action video gaming does not influence short-term ocular dominance plasticity in visually normal adults. *eNeuro*.
 
-2. Yiya Chen\*, **Seung Hyun Min**\*, Ziyun Cheng, Shijia Chen, Zili Wang, Chunwen Tao, Fan Lu, Jia Qu, Pi-Chun Huang, Robert Hess, Jiawei Zhou (2020). Short-term deprivation does not influence monocular or dichoptic temporal synchrony at low temporal frequency. *Frontiers in Neuroscience*, 14:402. \*indicates equal contribution
+2. Yiya Chen\*, **Seung Hyun Min\* **, Ziyun Cheng, Shijia Chen, Zili Wang, Chunwen Tao, Fan Lu, Jia Qu, Pi-Chun Huang, Robert Hess, Jiawei Zhou (2020). Short-term deprivation does not influence monocular or dichoptic temporal synchrony at low temporal frequency. *Frontiers in Neuroscience*, 14:402. \*indicates equal contribution
 
 3. **Seung Hyun Min**, Alexandre Reynaud, Robert F. Hess (2020). Interocular differences in spatial frequency influence the Pulfrich effect. *Vision*, 4(1), 20.
 
@@ -22,7 +22,7 @@ title: Publications
 
 4. **Seung Hyun Min**, Alex S. Baldwin, Robert F. Hess (2019). Ocular dominance plasticity: A binocular combination task finds no cumulative effect with repeated patching. *Vision Research*, 161, 36-42.
 
-5.  Martha Lopez-Canul\*, **Seung Hyun Min**\*, Luca Posa, Danilo De Gregorio, Gilberto Spadoni, Gabriella Gobbi, Stefano Comai (2019). Melatonin MT1 and MT2 receptors exhibit distinct effects in the modulation of body temperature across the light/dark cycle. *International Journal of Molecular Sciences*, 20(10), 2452. \*indicates equal contribution.
+5.  Martha Lopez-Canul\*, **Seung Hyun Min\* **, Luca Posa, Danilo De Gregorio, Gilberto Spadoni, Gabriella Gobbi, Stefano Comai (2019). Melatonin MT1 and MT2 receptors exhibit distinct effects in the modulation of body temperature across the light/dark cycle. *International Journal of Molecular Sciences*, 20(10), 2452. \*indicates equal contribution.
 
 ### 2018
 
