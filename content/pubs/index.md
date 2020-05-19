@@ -26,4 +26,4 @@ title: Publications
 
 ### 2018
 
-6. **Seung Hyun Min**, Alex S. Baldwin, Alexandre Reynaud, Robert F. Hess (2018). The shift in ocular dominance from short-term monocular deprivation exhibits no dependence on duration of deprivation. *Scientific Reports*, 8(1), 17083.[**pdf**](pubs/min2018.pdf)
+6. **Seung Hyun Min**, Alex S. Baldwin, Alexandre Reynaud, Robert F. Hess (2018). The shift in ocular dominance from short-term monocular deprivation exhibits no dependence on duration of deprivation. *Scientific Reports*, 8(1), 17083. [**pdf**](pubs/min2018.pdf)
