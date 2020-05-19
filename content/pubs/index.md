@@ -22,7 +22,7 @@ title: Publications
 
 4. **Seung Hyun Min**, Alex S. Baldwin, Robert F. Hess (2019). Ocular dominance plasticity: A binocular combination task finds no cumulative effect with repeated patching. *Vision Research*, 161, 36-42. [**pdf**](pubs/min2019.pdf)
 
-5.  Martha Lopez-Canul\*, **Seung Hyun Min**\*, Luca Posa, Danilo De Gregorio, Gilberto Spadoni, Gabriella Gobbi, Stefano Comai (2019). Melatonin MT1 and MT2 receptors exhibit distinct effects in the modulation of body temperature across the light/dark cycle. *International Journal of Molecular Sciences*, 20(10), 2452. \**co-first*. [**pdf**](pubs/martha2019.pdf)
+5.  Martha Lopez-Canul\*, **Seung Hyun Min**\*, Luca Posa, Danilo De Gregorio, Gilberto Spadoni, Gabriella Gobbi, Stefano Comai (2019). Melatonin MT1 and MT2 receptors exhibit distinct effects in the modulation of body temperature across the light/dark cycle. *International Journal of Molecular Sciences*, 20(10), 2452. \**co-first*. [<u>pdf</u>](pubs/martha2019.pdf)
 
 ### 2018
 
