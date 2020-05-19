@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seung Hyun (Sam) Min</title>
-    <link>/hugo-goa-demo/</link>
+    <link>/</link>
     <description>Recent content on Seung Hyun (Sam) Min</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/hugo-goa-demo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>/hugo-goa-demo/about/</link>
+      <link>/about/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/about/</guid>
+      <guid>/about/</guid>
       <description>A PhD student at McGill University, I have been working with Prof. Robert Hess to study perception science, namely neural plasticity and binocular vision. As undergraduate, I worked with Prof. Ipek Oruc (UBC) on face perception and Prof. Gabriella Gobbi (McGill) on circadian physiology.
 Education PhD, Computational Neuroscience, Department of Ophthalmology and Visual Sciences, Quebec, McGill University (2017 - Present).
 Bachelors of Science, Anatomy and Cell Biology, McGill University, Quebec, Canada (2013-2017).</description>
@@ -24,10 +24,10 @@ Bachelors of Science, Anatomy and Cell Biology, McGill University, Quebec, Canad
     
     <item>
       <title>Clarinet clips</title>
-      <link>/hugo-goa-demo/blog/clarinet_clips/</link>
+      <link>/blog/clarinet_clips/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/blog/clarinet_clips/</guid>
+      <guid>/blog/clarinet_clips/</guid>
       <description>Here are some of my favorite clarinet clips. I have watched them countless times.
 Tchaikovsky’s Nutcracker for the clarinet and orchestraHis playing is so lyrical. He sings with the clarinet. I can listen to his playing all day.
 Rossini’s variationHis articulation is god-level. His conducting is also god-level. Everything about this so god. His cadenza in the end is legendary!
@@ -36,20 +36,20 @@ Tchaikovsky’s Nutcracker for the clarinet and orchestraHis playing is so lyr
     
     <item>
       <title>Publications</title>
-      <link>/hugo-goa-demo/pubs/</link>
+      <link>/pubs/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/pubs/</guid>
+      <guid>/pubs/</guid>
       <description>2020   Xiaoxin Chen, Shijia Chen, Deying Kong, Junhan Wei, Yu Mao, Wenman Lin, Yiya Chen, Zhimo Yao, Seung Hyun Min, Fan Lu, Jia Qu, Robert F. Hess, Jiawei Zhou (2020). Action video gaming does not influence short-term ocular dominance plasticity in visually normal adults. eNeuro.
   Yiya Chen*, Seung Hyun Min*, Ziyun Cheng, Shijia Chen, Zili Wang, Chunwen Tao, Fan Lu, Jia Qu, Pi-Chun Huang, Robert Hess, Jiawei Zhou (2020).</description>
     </item>
     
     <item>
       <title>Breathe by Leehi</title>
-      <link>/hugo-goa-demo/blog/breathe_leehi/</link>
+      <link>/blog/breathe_leehi/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/blog/breathe_leehi/</guid>
+      <guid>/blog/breathe_leehi/</guid>
       <description>Breathe is one of my favorite songs. Many covers have been recorded. Here are my favorites.
 Original by LeehiThis is the original recording of the song.
 Han Dong GeunHan’s control of dynamic is amazing. His arrangement strays from the original but is absolutely beautiful.
