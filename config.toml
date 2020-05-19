@@ -35,7 +35,6 @@ keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Social Accounts
 [params.social]
-linkedin = "https://www.linkedin.com/in/seung-hyun-min-56b515107/"
 googlescholar = "https://scholar.google.ca/citations?user=5Bu4E6sAAAAJ&hl=en"
 email = "seung.min@mail.mcgill.ca"
 
