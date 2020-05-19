@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Seung Hyun (Sam) Min</title>
+    <link>/hugo-goa-demo/categories/</link>
+    <description>Recent content in Categories on Seung Hyun (Sam) Min</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/hugo-goa-demo/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about</title>
+      <link>/hugo-goa-demo/categories/about/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/categories/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

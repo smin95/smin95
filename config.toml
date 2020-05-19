@@ -1,0 +1,66 @@
+## Basic Configuration
+
+baseurl = "https://shenoybr.github.io/hugo-goa-demo/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Seung Hyun (Sam) Min"
+title = "Seung Hyun (Sam) Min"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Seung Hyun (Sam) Min"
+intro = "PhD Student"
+description = "Computational Neuroscience"
+#"Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+authorimage = "profile2.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+linkedin = "https://www.linkedin.com/in/seung-hyun-min-56b515107/"
+googlescholar = "https://scholar.google.ca/citations?user=5Bu4E6sAAAAJ&hl=en"
+email = "seung.min@mail.mcgill.ca"
+
+## Extras
+[params.extra]
+copyright = "© 2020. Sam Min. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "publications"
+    identifier = "pubs"
+    weight = 300
+    url = "/pubs/"

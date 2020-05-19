@@ -1,0 +1,31 @@
+---
+author: Seung Hyun (Sam) Min
+date: "2020-05-18"
+tags:
+- shortcodes
+- privacy
+title: Breathe by Leehi
+description: The original recording and covers of my favorite song
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Breathe is one of my favorite songs. Many covers have been recorded. Here are my favorites.
+
+### Original by Leehi
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5iSlfF8TQ9k" frameborder="0" allowfullscreen></iframe>
+
+This is the original recording of the song.
+
+### Han Dong Geun
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ECSz0dLk6Ow" frameborder="0" allowfullscreen></iframe>
+
+Han's control of dynamic is amazing. His arrangement strays from the original but is absolutely beautiful. 
+
+### Kyu Hyun
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4cGNTeX9vpA" frameborder="0" allowfullscreen></iframe>
+
+His voice is beautiful. Very clear and resonant. This rendition is very faithful to the original

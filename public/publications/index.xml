@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Seung Hyun (Sam) Min</title>
+    <link>/hugo-goa-demo/publications/</link>
+    <description>Recent content in Publications on Seung Hyun (Sam) Min</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/hugo-goa-demo/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>/hugo-goa-demo/publications/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/publications/publications/</guid>
+      <description>2020Xiaoxin Chen, Shijia Chen, Deying Kong, Junhan Wei, Yu Mao, Wenman Lin, Yiya Chen, Zhimo Yao, Seung Hyun Min, Fan Lu, Jia Qu, Robert F. Hess, Jiawei Zhou (2020). Action video gaming does not influence short-term ocular dominance plasticity in visually normal adults. eNeuro.
+Yiya Chen*, Seung Hyun Min*, Ziyun Cheng, Shijia Chen, Zili Wang, Chunwen Tao, Fan Lu, Jia Qu, Pi-Chun Huang, Robert Hess, Jiawei Zhou (2020).</description>
+    </item>
+    
+  </channel>
+</rss>

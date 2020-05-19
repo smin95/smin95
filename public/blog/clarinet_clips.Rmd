@@ -1,0 +1,36 @@
+---
+author: Hugo Authors
+date: "2020-05-19"
+tags:
+- shortcodes
+- privacy
+title: Clarinet clips
+description: Links to my favorite clarinet clips
+output: html_document 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here are some of my favorite clarinet clips. I have watched them countless times.
+
+### Tchaikovsky's Nutcracker for the clarinet and orchestra
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b72d452U-II" frameborder="0" allowfullscreen></iframe>
+
+His playing is so lyrical. He sings with the clarinet. I can listen to his playing all day. 
+
+### Rossini's variation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u1-YYv9ZQ5I" frameborder="0" allowfullscreen></iframe>
+
+His articulation is god-level. His conducting is also god-level. Everything about this so god. His cadenza in the end is legendary! 
+
+
+### Spohr #2 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HMt6ZnprVpo" frameborder="0" allowfullscreen></iframe>
+
+He effortlessly plays this notoriously difficult piece. His clarinet produces a thin, light sound that is characteristic of the German clarinet.
+
