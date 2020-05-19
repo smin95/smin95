@@ -40,7 +40,7 @@ email = "seung.min@mail.mcgill.ca"
 
 ## Extras
 [params.extra]
-copyright = "© 2020. Sam Min. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2020. Seung Hyun (Sam) Min. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true
