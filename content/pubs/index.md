@@ -10,8 +10,6 @@ tags:
 - about
 title: Publications
 ---
-### 2020
-
 1. Xiaoxin Chen, Shijia Chen, Deying Kong, Junhan Wei, Yu Mao, Wenman Lin, Yiya Chen, Zhimo Yao, **Seung Hyun Min**, Fan Lu, Jia Qu, Robert F. Hess, Jiawei Zhou (2020). Action video gaming does not influence short-term ocular dominance plasticity in visually normal adults. *eNeuro*. [**pdf**](pubs/xchen2020.pdf)
 
 2. Yiya Chen\*, **Seung Hyun Min**\*, Ziyun Cheng, Shijia Chen, Zili Wang, Chunwen Tao, Fan Lu, Jia Qu, Pi-Chun Huang, Robert Hess, Jiawei Zhou (2020). Short-term deprivation does not influence monocular or dichoptic temporal synchrony at low temporal frequency. *Frontiers in Neuroscience*, 14:402. \**co-first*. [**pdf**](pubs/ychen2020.pdf)
