@@ -37,7 +37,7 @@ keywords = "minimalist,blog,goa,hugo,developer"
 [params.social]
 googlescholar = "https://scholar.google.ca/citations?user=5Bu4E6sAAAAJ&hl=en"
 email = "seung.min@mail.mcgill.ca"
-github = "https://github.com/smin95"
+github = "smin95"
 
 ## Extras
 [params.extra]
