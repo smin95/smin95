@@ -27,7 +27,7 @@ Masters Training Scholarship (2019-2020), Fonds de researche du Quebec-Sante, Ca
 
 Masters Graduate Scholarship (2018-2019), Natural Sciences and Engineering Research Council (NSERC), Canada.
 
-### Skills
+### Programming
 R, Matlab, Python, Bash
 
 ### Etc
