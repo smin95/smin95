@@ -11,7 +11,7 @@ tags:
 title: About
 ---
 
-A PhD student at McGill University, I have been working with Prof. Robert Hess to study perception science, namely neural plasticity and binocular vision. As  undergraduate, I worked with Prof. Ipek Oruc (UBC) on face perception and Prof. Gabriella Gobbi (McGill) on circadian physiology. 
+During high school, I was diagnosed with a nerve injury on my right hand from playing the clarinet, leaving me with no choice but to become ambidextrous. I had to longitudinally retrain my brain so that my left hand could properly write alphabets and hold chopsticks, the responsibilities that had been formerly assigned to my right hand. The experiences from my recovery sparked my interest in neural plasticity. For my undergraduate education, I pursued Anatomy and Cell Biology at McGill University and graduated within the top 10% of my class on June 2017. Subsequently, I have been working on my graduate degree at McGill University with Prof. Robert Hess on neural plasticity. The focus of my thesis has been on finding means to harness remaining levels of neural plasticity in the adult brain, a topic that parallels my experiences from playing music. During spare time, I enjoy practicing the clarinet (yes, I still do play) and reading historical fiction novels.
 
 ### Education
 
