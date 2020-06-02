@@ -10,7 +10,7 @@ tags:
 - about
 title: Publications
 ---
-1. Ling Gong\*, **Seung Hyun Min\***, Shijia Chen, Junhan Wei, Deying Kong, Chunwen Tao, Peng Zhang, Pi-Chun Huang, Jiawei Zhou. Reduced monocular luminance increases monocular temporal synchrony threshold in human adults. *Investigative Ophthalmology and Visual Science*. \**co-first authors*.
+1. Ling Gong\*, **Seung Hyun Min\***, Shijia Chen, Junhan Wei, Deying Kong, Chunwen Tao, Peng Zhang, Pi-Chun Huang, Jiawei Zhou (in press). Reduced monocular luminance increases monocular temporal synchrony threshold in human adults. *Investigative Ophthalmology and Visual Science*. \**co-first authors*.
 
 2. Yu Mao\*, **Seung Hyun Min\***, Shijia Chen, Ling Gong, Hao Chen, Robert F. Hess, Jiawei Zhou (in press). Binocular imbalance in amblyopia depends on spatial frequency in binocular combination. *Investigative Ophthalmology and Visual Science*. \**co-first authors*.
 
