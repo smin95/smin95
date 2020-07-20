@@ -12,9 +12,9 @@ title: Publications
 ---
 1. Yidong Wu, Meiping Xu, Junxiao Zhang, Jinjing Zhou, Minghui Wan, Zhiyue Dai, Tingting Peng, **Seung Hyun Min**, Fang Hou, Jiawei Zhou and Xinping Yu (in press). Can clinical measures of postoperative binocular function predict the long-term stability of postoperative alignment in intermittent exotropia? *Journal of Ophthalmology*. 
 
-2. Ling Gong\*, **Seung Hyun Min\***, Shijia Chen, Junhan Wei, Deying Kong, Chunwen Tao, Peng Zhang, Pi-Chun Huang, Jiawei Zhou (in press). Reduced monocular luminance increases monocular temporal synchrony threshold in human adults. *Investigative Ophthalmology and Visual Science*. \**co-first authors*.
+2. Ling Gong\*, **Seung Hyun Min\***, Shijia Chen, Junhan Wei, Deying Kong, Chunwen Tao, Peng Zhang, Pi-Chun Huang, Jiawei Zhou (in press). Reduced monocular luminance increases monocular temporal synchrony threshold in human adults. *Investigative Ophthalmology and Visual Science*. 2020;61(8):1. \**co-first authors*. [**pdf**](pubs/gong2020.pdf)
 
-3. Yu Mao\*, **Seung Hyun Min\***, Shijia Chen, Ling Gong, Hao Chen, Robert F. Hess, Jiawei Zhou (in press). Binocular imbalance in amblyopia depends on spatial frequency in binocular combination. *Investigative Ophthalmology and Visual Science*. \**co-first authors*.
+3. Yu Mao\*, **Seung Hyun Min\***, Shijia Chen, Ling Gong, Hao Chen, Robert F. Hess, Jiawei Zhou (2020). Binocular imbalance in amblyopia depends on spatial frequency in binocular combination. *Investigative Ophthalmology and Visual Science*. 2020;61(8):7. \**co-first authors*. [**pdf**](pubs/mao2020.pdf)
 
 4. Xiaoxin Chen, Shijia Chen, Deying Kong, Junhan Wei, Yu Mao, Wenman Lin, Yiya Chen, Zhimo Yao, **Seung Hyun Min**, Fan Lu, Jia Qu, Robert F. Hess, Jiawei Zhou (2020). Action video gaming does not influence short-term ocular dominance plasticity in visually normal adults. *eNeuro*. [**pdf**](pubs/xchen2020.pdf)
 
