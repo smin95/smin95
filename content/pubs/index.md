@@ -10,7 +10,7 @@ tags:
 - about
 title: Publications
 ---
-1. Yidong Wu, Meiping Xu, Junxiao Zhang, Jinjing Zhou, Minghui Wan, Zhiyue Dai, Tingting Peng, **Seung Hyun Min**, Fang Hou, Jiawei Zhou and Xinping Yu (in press). Can clinical measures of postoperative binocular function predict the long-term stability of postoperative alignment in intermittent exotropia? *Journal of Ophthalmology*. 
+1. Yidong Wu, Meiping Xu, Junxiao Zhang, Jinjing Zhou, Minghui Wan, Zhiyue Dai, Tingting Peng, **Seung Hyun Min**, Fang Hou, Jiawei Zhou and Xinping Yu (2020). Can clinical measures of postoperative binocular function predict the long-term stability of postoperative alignment in intermittent exotropia? *Journal of Ophthalmology*.vol. 2020, 7392165. [**pdf**](pubs/wu2020.pdf)
 
 2. Ling Gong\*, **Seung Hyun Min\***, Shijia Chen, Junhan Wei, Deying Kong, Chunwen Tao, Peng Zhang, Pi-Chun Huang, Jiawei Zhou (2020). Reduced monocular luminance increases monocular temporal synchrony threshold in human adults. *Investigative Ophthalmology and Visual Science*. 2020;61(8):1. \**co-first authors*. [**pdf**](pubs/gong2020.pdf)
 
