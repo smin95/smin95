@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/clarinet_clips/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/privacy/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shortcodes/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
@@ -18,22 +43,7 @@
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/clarinet_clips/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/privacy/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -44,16 +54,6 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shortcodes/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
