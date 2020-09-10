@@ -1,0 +1,1 @@
+to change rmd files with netlify, first run the change with 'serve site'.
