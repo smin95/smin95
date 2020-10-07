@@ -1,7 +1,11 @@
 ---
-title: "Favorite clarinet clips"
-author: "Sam Min"
-date: "06/10/2020"
+author: Seung Hyun (Sam) Min
+date: "2020-10-06"
+tags:
+- shortcodes
+- privacy
+title: Favorite clarinet clips
+description: Recordings that I revisit often
 output: html_document
 ---
 
