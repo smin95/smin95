@@ -6,22 +6,10 @@
     <description>Recent content in Blogs on Seung Hyun (Sam) Min</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Clarinet clips</title>
-      <link>/blog/clarinet_clips/</link>
-      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/clarinet_clips/</guid>
-      <description>Here are some of my favorite clarinet clips. I have watched them countless times.
-Tchaikovsky’s Nutcracker for the clarinet and orchestraSergey’s playing is so lyrical. He sings with the clarinet. I can listen to his playing all day.
-Rossini’s Introduction, Theme and VariationsValentin’s articulation is god-level. His conducting is also god-level. Everything about this so god. His cadenza in the end is legendary!
-Spohr #2 concertoThe soloist effortlessly plays this notoriously difficult piece.</description>
-    </item>
     
     <item>
       <title>Breathe by Lee hi</title>
@@ -33,6 +21,16 @@ Tchaikovsky’s Nutcracker for the clarinet and orchestraSergey’s playing is
 Original by Lee hiThis is the original recording of the song.
 Han Dong GeunHan’s control of dynamic is amazing. His arrangement strays from the original but is absolutely beautiful.
 Kyu HyunHis voice is beautiful. Very clear and resonant. This rendition is very faithful to the original</description>
+    </item>
+    
+    <item>
+      <title>Why Flight of the Bumblebee is a must-learn piece</title>
+      <link>/blog/bumblebee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bumblebee/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
     </item>
     
   </channel>
