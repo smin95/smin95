@@ -1,12 +1,8 @@
 ---
-author: Hugo Authors
-date: "2020-10-09"
-tags:
-- shortcodes
-- privacy
-title: Clarinet clips
-description: Links to my favorite clarinet clips
-output: html_document 
+title: "Favorite clarinet clips"
+author: "Sam Min"
+date: "06/10/2020"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
