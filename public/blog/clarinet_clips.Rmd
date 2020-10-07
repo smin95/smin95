@@ -1,8 +1,12 @@
 ---
-title: "Favorite clarinet clips"
-author: "Sam Min"
+title: "Clarinet clips"
+author: "Seung Hyun (Sam) Min"
 date: "06/10/2020"
 output: html_document
+tags:
+- shortcodes
+- privacy
+description: Recordings that I revisit often
 ---
 
 ```{r setup, include=FALSE}
