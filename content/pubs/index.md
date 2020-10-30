@@ -10,7 +10,7 @@ tags:
 - about
 title: Publications
 ---
-Note: Preprints are not peer-reviewed. Co-first authorships denoted with *.
+Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
 
 1. **Seung Hyun Min\***, Shijia Chen\*, Jinling Xu, Bingzhen Chen,
 Hui Chen, Yuwen Wang, Jiawei Zhou, Xudong Yu. A comparison of therapies using Eyetronix Flicker Glass and standard adhesive patches in children with anisometropic amblyopia: A randomized controlled trial (Preprint). *medRxiv. \*co-first authors* [**pdf**](pubs/flicker2020.pdf)
