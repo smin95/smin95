@@ -32,6 +32,6 @@ R, Matlab, Python, Bash
 
 ### Etc
 
-I play the clarinet as a hobby. Here is a clip of me playing the first movement of the Mozart clarinet concerto in A major a few months before my high school graduation (March 2013). I start playing at around 1:48.
+I play the clarinet as a hobby. Here is a clip of me playing Flight of the Bumblebee with my friend Junyi, a professional pianist. 
 
-{{< youtube B-_A3mEhKnA >}}
+{{< youtube FpRrlLJg4Ww>}}
