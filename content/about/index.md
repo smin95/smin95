@@ -32,6 +32,6 @@ R, Matlab, Python, Bash
 
 ### Etc
 
-I play the clarinet as a hobby. Here is a clip of me playing Flight of the Bumblebee with my friend Junyi, a professional pianist. 
+I play the clarinet as a hobby. Here is a clip of me playing Flight of the Bumblebee by Rimskoy-Korsakov with my friend Junyi, a professional pianist. 
 
 {{< youtube FpRrlLJg4Ww>}}
