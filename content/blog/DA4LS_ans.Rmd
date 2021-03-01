@@ -1,0 +1,18 @@
+---
+author: Seung Hyun (Sam) Min
+date: "2020-10-05"
+tags:
+- shortcodes
+- privacy
+title: Exercise Solutions for Data Analysis for the Life Sciences in R 
+description: A fun side project
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I have made an answer key for a statistics book entitled: Data Analysis for the Life Sciences in R. Here is the [link] (https://smin95.github.io/da4ls_exercise_solution/). Happy coding!
+
