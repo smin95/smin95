@@ -6,10 +6,15 @@
     <description>Recent content in privacy on Seung Hyun (Sam) Min</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exercise Solutions for Data Analysis for the Life Sciences in R</title>
+      <link>/blog/da4ls_ans/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/da4ls_ans/</guid>
+      <description>I have made an answer key for a statistics book entitled: Data Analysis for the Life Sciences in R. Here is the [link] (https://smin95.github.io/da4ls_exercise_solution/). Happy coding!</description>
+    </item>
     
     <item>
       <title>Favorite clarinet clips</title>
