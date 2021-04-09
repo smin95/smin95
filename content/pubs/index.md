@@ -15,8 +15,7 @@ Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
 
 1. **Seung Hyun Min**, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Ocular dominance plasticity: measurement reliability and variability (Preprint). *bioRxiv*. [**pdf**](pubs/patching_twice.pdf)
 
-2. **Seung Hyun Min\***, Shijia Chen\*, Jinling Xu, Bingzhen Chen,
-Hui Chen, Yuwen Wang, Jiawei Zhou, Xudong Yu. A comparison of therapies using Eyetronix Flicker Glass and standard adhesive patches in children with anisometropic amblyopia: A randomized controlled trial (2021). *Frontiers in Neuroscience*,  15:622729. \*co-first authors* [**pdf**](pubs/flicker2021.pdf)
+2. **Seung Hyun Min\***, Shijia Chen\*, Jinling Xu, Bingzhen Chen,Hui Chen, Yuwen Wang, Jiawei Zhou, Xudong Yu. A Randomized Clinical Trial Comparing Eyetronix Flicker Glass and Patching for Treatment of Amblyopia in Children Reveals Similar Improvements in Vision (2021). *Frontiers in Neuroscience*,  15:622729. \*co-first authors* [**pdf**](pubs/flicker2021.pdf)
 
 3. Yidong Wu, Meiping Xu, Junxiao Zhang, Jinjing Zhou, Minghui Wan, Zhiyue Dai, Tingting Peng, **Seung Hyun Min**, Fang Hou, Jiawei Zhou and Xinping Yu (2020). Can clinical measures of postoperative binocular function predict the long-term stability of postoperative alignment in intermittent exotropia? *Journal of Ophthalmology*.vol. 2020, 7392165. [**pdf**](pubs/wu2020.pdf)
 
