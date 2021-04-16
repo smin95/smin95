@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music on Seung Hyun (Sam) Min</title>
+    <link>/tags/music/</link>
+    <description>Recent content in music on Seung Hyun (Sam) Min</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 16 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Flight of the Bumblebee is a great etude</title>
+      <link>/blog/bumblebee/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bumblebee/</guid>
+      <description>I play the clarinet as a hobby although I used to play it competitively during high school. Unfortunately, since I began my undergraduate studies, I have stopped receiving lessons, which are quite expensive. So during undergrad, my playing ability rarely improved. However, perhaps thanks to COVID-19, I have had more spare time recently and have been able to find practice routines that have worked for me to become a better player.</description>
+    </item>
+    
+  </channel>
+</rss>
