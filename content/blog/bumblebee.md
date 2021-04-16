@@ -23,5 +23,6 @@ To really master each note of the piece, one needs to play this piece slowly. I 
 
 {{< youtube FpRrlLJg4Ww>}}  
 
-\n
+---------
+
 Once, I was able to reach a tempo of 200 beats per minute. Then, I asked myself, 'what now?' It turned out I could play this piece all double-tongued. If I 'tongued' all the notes, each note would be detached and articulated because my tongue would touch the reed of the clarinet to block the air flow. I realized playing this piece with a non-stop double tongue was much more difficult than slurring (i.e., connecting) all the notes. So, I guess it will be my next challenge (for the next couple years). I usually double-tongue (i.e, ta-ka-ta-ka) rather than single-tongue (ta-ta-ta) in typical clarinet repertoires, such as pieces by Mozart, Weber and Spohr. However, a long passage of non-stop articulation is very rare in the clarinet repertoire. So, I guess this exercise will improve my articulation too.
