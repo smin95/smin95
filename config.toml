@@ -22,7 +22,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Seung Hyun (Sam) Min"
-intro = "PhD Student"
+intro = "PhD Graduate"
 description = "Computational Neuroscience"
 #"Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
 authorimage = "profile2.jpg"
@@ -41,7 +41,7 @@ github = "smin95"
 
 ## Extras
 [params.extra]
-copyright = "© 2020. Seung Hyun (Sam) Min. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2020-21. Seung Hyun (Sam) Min. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true

@@ -1,5 +1,5 @@
 +++
-categories = ["ad"]
+categories = [""]
 comments = false
 date = "2021-03-01"
 draft = false
