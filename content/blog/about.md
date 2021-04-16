@@ -1,5 +1,4 @@
 +++
-categories = [""]
 comments = false
 date = "2021-03-01"
 draft = false
@@ -12,4 +11,4 @@ description = "A fun side project"
 
 +++
 
-I have made an answer key for a statistics book entitled: Data Analysis for the Life Sciences in R. Here is the [link](https://smin95.github.io/da4ls_exercise_solution/). Happy coding!
+I have made an answer key for a statistics book entitled: Data Analysis for the Life Sciences in R. Here is the [__link__](https://smin95.github.io/da4ls_exercise_solution/). Happy coding!
