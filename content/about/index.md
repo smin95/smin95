@@ -15,7 +15,7 @@ During high school, I was diagnosed with a nerve injury within my right hand fro
 
 ### Education
 
-PhD, Computational Neuroscience, Department of Ophthalmology and Visual Sciences, Quebec, McGill University (2017 - Present). 
+PhD, Computational Neuroscience, Department of Ophthalmology and Visual Sciences, Quebec, McGill University (2017 - 2021). 
 
 Bachelors of Science, Anatomy and Cell Biology, McGill University, Quebec, Canada (2013-2017). Top 10% cGPA in the faculty. 
 
