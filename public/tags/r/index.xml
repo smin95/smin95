@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ad on Seung Hyun (Sam) Min</title>
-    <link>/categories/ad/</link>
-    <description>Recent content in ad on Seung Hyun (Sam) Min</description>
+    <title>R on Seung Hyun (Sam) Min</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Seung Hyun (Sam) Min</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/ad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exercise Solutions for Data Analysis for the Life Sciences with R</title>
       <link>/blog/about/</link>

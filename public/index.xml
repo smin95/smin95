@@ -8,11 +8,11 @@
     <language>en-US</language>
     <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exercise Solutions for Data Analysis for the Life Sciences in R</title>
-      <link>/blog/da4ls_ans/</link>
+      <title>Exercise Solutions for Data Analysis for the Life Sciences with R</title>
+      <link>/blog/about/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/blog/da4ls_ans/</guid>
+      <guid>/blog/about/</guid>
       <description>I have made an answer key for a statistics book entitled: Data Analysis for the Life Sciences in R. Here is the link. Happy coding!</description>
     </item>
     
@@ -34,7 +34,7 @@ Tchaikovsky’s Nutcracker for the clarinet and orchestraSergey’s playing is
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>During high school, I was diagnosed with a nerve injury on my right hand from playing the clarinet, leaving me with no choice but to become ambidextrous. I had to longitudinally retrain my brain so that my left hand could properly write alphabets and hold chopsticks, the responsibilities that had been formerly assigned to my right hand. The experiences from my recovery sparked my interest in neural plasticity. For my undergraduate education, I pursued Anatomy and Cell Biology at McGill University and graduated within the top 10% of my class on June 2017.</description>
+      <description>During high school, I was diagnosed with a nerve injury within my right hand from playing the clarinet, leaving me with no choice but to become ambidextrous. I had to longitudinally retrain my brain so that my left hand could properly write alphabets and hold chopsticks, the responsibilities that had been formerly assigned to my right hand. The experiences from my recovery sparked my interest in neural plasticity. For my undergraduate education, I pursued Anatomy and Cell Biology at McGill University and graduated within the top 10% of my class on June 2017.</description>
     </item>
     
     <item>
@@ -44,8 +44,8 @@ Tchaikovsky’s Nutcracker for the clarinet and orchestraSergey’s playing is
       
       <guid>/pubs/</guid>
       <description>Note: Preprints are not peer-reviewed. Co-first authorships are denoted with *.
-  Seung Hyun Min*, Shijia Chen*, Jinling Xu, Bingzhen Chen, Hui Chen, Yuwen Wang, Jiawei Zhou, Xudong Yu. A comparison of therapies using Eyetronix Flicker Glass and standard adhesive patches in children with anisometropic amblyopia: A randomized controlled trial (Preprint). medRxiv. *co-first authors pdf
-  Seung Hyun Min, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F.</description>
+  Seung Hyun Min, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Ocular dominance plasticity: measurement reliability and variability (Preprint). bioRxiv. pdf
+  Seung Hyun Min*, Shijia Chen*, Jinling Xu, Bingzhen Chen,Hui Chen, Yuwen Wang, Jiawei Zhou, Xudong Yu. A Randomized Clinical Trial Comparing Eyetronix Flicker Glass and Patching for Treatment of Amblyopia in Children Reveals Similar Improvements in Vision (2021).</description>
     </item>
     
     <item>
