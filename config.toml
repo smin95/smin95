@@ -41,7 +41,7 @@ github = "smin95"
 
 ## Extras
 [params.extra]
-copyright = "© Seung Hyun (Sam) Min 2020-2021"
+copyright = "Â© Seung Hyun (Sam) Min 2020-2021"
 poweredby = true
 highlightjs = true
 socialmarkup = true
