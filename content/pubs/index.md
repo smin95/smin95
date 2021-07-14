@@ -13,7 +13,7 @@ title: Publications
 Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
 
 
-1. **Seung Hyun Min**, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Ocular dominance plasticity: measurement reliability and variability (Preprint). *bioRxiv*. [**pdf**](pubs/patching_twice.pdf)
+1. **Seung Hyun Min**, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Some Psychophysical Tasks Measure Ocular Dominance Plasticity More Reliably Than Others (accepted). *Journal of Vision*.
 
 2. Shijia Chen\*, **Seung Hyun Min\***, Yue Xiong, Xi Yu, Lili Wei, Yu Mao, Robert F. Hess, Jiawei Zhou. Binocular Visual Deficits at Mid to High Spatial Frequency in Treated Amblyopes. *iScience* 24, 102727. \*co-first authors* [**pdf**](pubs/chen2021.pdf)
 
