@@ -13,9 +13,9 @@ title: Publications
 Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
 
 
-1. **Seung Hyun Min**, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Some Psychophysical Tasks Measure Ocular Dominance Plasticity More Reliably Than Others. *Journal of Vision*, 21(8):20, 1-23. [**pdf**](pubs/min2021.pdf)
+1. **Seung Hyun Min**, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Some Psychophysical Tasks Measure Ocular Dominance Plasticity More Reliably Than Others (2021). *Journal of Vision*, 21(8):20, 1-23. [**pdf**](pubs/min2021.pdf)
 
-2. Shijia Chen\*, **Seung Hyun Min\***, Yue Xiong, Xi Yu, Lili Wei, Yu Mao, Robert F. Hess, Jiawei Zhou. Binocular Visual Deficits at Mid to High Spatial Frequency in Treated Amblyopes. *iScience* 24, 102727. \*co-first authors* [**pdf**](pubs/chen2021.pdf)
+2. Shijia Chen\*, **Seung Hyun Min\***, Yue Xiong, Xi Yu, Lili Wei, Yu Mao, Robert F. Hess, Jiawei Zhou. Binocular Visual Deficits at Mid to High Spatial Frequency in Treated Amblyopes (2021). *iScience* 24, 102727. \*co-first authors* [**pdf**](pubs/chen2021.pdf)
 
 3. **Seung Hyun Min\***, Shijia Chen\*, Jinling Xu, Bingzhen Chen,Hui Chen, Yuwen Wang, Jiawei Zhou, Xudong Yu. A Randomized Clinical Trial Comparing Eyetronix Flicker Glass and Patching for Treatment of Amblyopia in Children Reveals Similar Improvements in Vision (2021). *Frontiers in Neuroscience*,  15:622729. \*co-first authors* [**pdf**](pubs/flicker2021.pdf)
 
