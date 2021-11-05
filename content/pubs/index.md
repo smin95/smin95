@@ -12,7 +12,7 @@ title: Publications
 ---
 Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
 
-1. **Seung Hyun Min**\*, and Yu Mao*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
+1. **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
 test to measure binocular balance across spatial frequency in amblyopia. *iScience* (accepted). \*co-first authors
 
 2. **Seung Hyun Min**, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Some Psychophysical Tasks Measure Ocular Dominance Plasticity More Reliably Than Others (2021). *Journal of Vision*, 21(8):20, 1-23. [**pdf**](pubs/min2021.pdf)
