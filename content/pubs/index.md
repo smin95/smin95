@@ -13,7 +13,7 @@ title: Publications
 Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
 
 1. **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
-test to measure binocular balance across spatial frequency in amblyopia. *iScience* (accepted). \*co-first authors
+test to measure binocular balance across spatial frequency in amblyopia (2022). *iScience*  1, 103652. \*co-first authors [**pdf**](pubs/min2022.pdf)
 
 2. **Seung Hyun Min**, Jiawei Zhou. smplot: An R Package for Easy and Elegant Data Visualization (2021). *Frontiers in Genetics*, 12:802894. [**pdf**](pubs/smplot2021.pdf)
 
