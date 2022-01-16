@@ -10,7 +10,14 @@ tags:
 - about
 title: Publications
 ---
+
 Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
+
+**Others:**
+
+1. **Seung Hyun Min**. Data Visualization in R Using smplot (2021). [__Link__](https://smin95.github.io/dataviz/). 
+
+**Academic Publications:**
 
 1. **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
 test to measure binocular balance across spatial frequency in amblyopia (2022). *iScience*  1, 103652. \*co-first authors [**pdf**](pubs/min2022.pdf)
@@ -40,3 +47,4 @@ test to measure binocular balance across spatial frequency in amblyopia (2022). 
 13.  Martha Lopez-Canul\*, **Seung Hyun Min\***, Luca Posa, Danilo De Gregorio, Gilberto Spadoni, Gabriella Gobbi, Stefano Comai (2019). Melatonin MT1 and MT2 receptors exhibit distinct effects in the modulation of body temperature across the light/dark cycle. *International Journal of Molecular Sciences*, 20(10), 2452.  \**co-first authors*. [**pdf**](pubs/martha2019.pdf)
 
 14. **Seung Hyun Min**, Alex S. Baldwin, Alexandre Reynaud, Robert F. Hess (2018). The shift in ocular dominance from short-term monocular deprivation exhibits no dependence on duration of deprivation. *Scientific Reports*, 8(1), 17083. [**pdf**](pubs/min2018.pdf)
+
