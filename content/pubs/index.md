@@ -11,13 +11,13 @@ tags:
 title: Publications
 ---
 
-Note: Preprints are not peer-reviewed. Co-first authorships are  denoted with *.
+Note: Co-first authorships are denoted with *.
 
 **Others:**
 
 1. **Seung Hyun Min**. Data Visualization in R Using smplot (2021). [__Link__](https://smin95.github.io/dataviz/). 
 
-**Academic Publications:**
+**Peer-reviewed publications:**
 
 1. **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
 test to measure binocular balance across spatial frequency in amblyopia (2022). *iScience*  1, 103652. \*co-first authors [**pdf**](pubs/min2022.pdf)
