@@ -17,7 +17,7 @@ Note: Co-first authorships are denoted with *.
 
 2 - **Seung Hyun Min**. Data Visualization in R Using smplot (2021). [__Link__](https://smin95.github.io/dataviz/). 
 
-1 - **Seung Hyun Min**. Data Analysis for the Life Sciences with R: Exercise Solutions (2020). [__Link__](smin95.github.io/da4ls_exercise_solution/)
+1 - **Seung Hyun Min**. Data Analysis for the Life Sciences with R: Exercise Solutions (2020). [__Link__](https://smin95.github.io/da4ls_exercise_solution/)
 
 **Peer-reviewed publications:**
 
