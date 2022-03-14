@@ -11,7 +11,7 @@ tags:
 title: Publications
 ---
 
-Note: Co-first authorships are denoted with *.
+Note: Co-first authors are denoted with *.
 
 **Others:**
 
