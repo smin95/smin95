@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Seung Hyun (Sam) Min</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Seung Hyun (Sam) Min</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 16 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Flight of the Bumblebee is a great etude</title>
+      <link>/blog/bumblebee/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bumblebee/</guid>
+      <description>I play the clarinet as a hobby although I used to play it competitively during high school. Unfortunately, since I began my undergraduate studies, I have stopped receiving lessons, which are quite expensive. So during undergrad, my playing ability rarely improved. However, perhaps thanks to COVID-19, I have had more spare time recently and have been able to find practice routines that have worked for me to become a better player.</description>
+    </item>
+    
+    <item>
+      <title>Exercise Solutions for Data Analysis for the Life Sciences in R</title>
+      <link>/blog/da4ls_ans/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/da4ls_ans/</guid>
+      <description>I have made an answer key for a statistics book entitled: Data Analysis for the Life Sciences in R. Here is the link. Happy coding!</description>
+    </item>
+    
+    <item>
+      <title>Exercise Solutions for Data Analysis for the Life Sciences with R</title>
+      <link>/blog/rstats/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rstats/</guid>
+      <description>I have made an answer key for a statistics book entitled: Data Analysis for the Life Sciences in R. Here is the link. Happy coding!</description>
+    </item>
+    
+    <item>
+      <title>Favorite clarinet clips</title>
+      <link>/blog/clarinet_clips/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/clarinet_clips/</guid>
+      <description>Here are some of my favorite clarinet clips. I have watched them countless times.
+Tchaikovsky’s Nutcracker for the clarinet and orchestraSergey’s playing is so lyrical. He sings with the clarinet. I can listen to his playing all day.
+Rossini’s Introduction, Theme and VariationsValentin’s articulation is god-level. His conducting is also god-level. Everything about this so god. His cadenza in the end is legendary!
+Spohr #2 concertoThe soloist effortlessly plays this notoriously difficult piece.</description>
+    </item>
+    
+    <item>
+      <title>Breathe by Lee hi</title>
+      <link>/blog/breathe_leehi/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/breathe_leehi/</guid>
+      <description>Breathe is one of my favorite songs. Many covers have been recorded. Here are my favorites.
+Original by Lee hiThis is the original recording of the song.
+Han Dong GeunHan’s control of dynamic is amazing. His arrangement strays from the original but is absolutely beautiful.
+Kyu HyunHis voice is beautiful. Very clear and resonant. This rendition is very faithful to the original</description>
+    </item>
+    
+  </channel>
+</rss>

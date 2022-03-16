@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Seung Hyun (Sam) Min</title>
+    <link>/categories/about/</link>
+    <description>Recent content in about on Seung Hyun (Sam) Min</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>During high school, I was diagnosed with a nerve injury within my right hand from playing the clarinet, leaving me with no choice but to become ambidextrous. I had to longitudinally retrain my brain so that my left hand could properly write alphabets and hold chopsticks, the responsibilities that had been formerly assigned to my right hand. The experiences from my recovery sparked my interest in neural plasticity. For my undergraduate education, I pursued Anatomy and Cell Biology at McGill University and graduated within the top 10% of my class on June 2017.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/pubs/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/pubs/</guid>
+      <description>Note: Preprints are not peer-reviewed. Co-first authorships are denoted with *.
+  Seung Hyun Min, Ling Gong, Alex S. Baldwin, Alexandre Reynaud, Zhifen He, Jiawei Zhou, Robert F. Hess. Ocular dominance plasticity: measurement reliability and variability (Preprint). bioRxiv. pdf
+  Seung Hyun Min*, Shijia Chen*, Jinling Xu, Bingzhen Chen,Hui Chen, Yuwen Wang, Jiawei Zhou, Xudong Yu. A Randomized Clinical Trial Comparing Eyetronix Flicker Glass and Patching for Treatment of Amblyopia in Children Reveals Similar Improvements in Vision (2021).</description>
+    </item>
+    
+  </channel>
+</rss>
