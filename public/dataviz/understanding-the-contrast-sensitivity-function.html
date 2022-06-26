@@ -24,7 +24,7 @@
 <meta name="author" content="Seung Hyun Min" />
 
 
-<meta name="date" content="2022-06-23" />
+<meta name="date" content="2022-06-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -340,7 +340,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="11.3" data-path="understanding-the-contrast-sensitivity-function.html"><a href="understanding-the-contrast-sensitivity-function.html#understanding-sm_ribboncsf"><i class="fa fa-check"></i><b>11.3</b> Understanding <code>sm_ribbonCSF()</code></a></li>
 <li class="chapter" data-level="11.4" data-path="understanding-the-contrast-sensitivity-function.html"><a href="understanding-the-contrast-sensitivity-function.html#calculating-the-five-parameters-of-all-subjects-groups-and-conditions"><i class="fa fa-check"></i><b>11.4</b> Calculating the five parameters of all subjects, groups and conditions</a></li>
-<li class="chapter" data-level="11.5" data-path="understanding-the-contrast-sensitivity-function.html"><a href="understanding-the-contrast-sensitivity-function.html#case-study-1"><i class="fa fa-check"></i><b>11.5</b> Case Study</a></li>
+<li class="chapter" data-level="11.5" data-path="understanding-the-contrast-sensitivity-function.html"><a href="understanding-the-contrast-sensitivity-function.html#visualization-of-the-parameters"><i class="fa fa-check"></i><b>11.5</b> Visualization of the parameters</a></li>
+<li class="chapter" data-level="11.6" data-path="understanding-the-contrast-sensitivity-function.html"><a href="understanding-the-contrast-sensitivity-function.html#case-study-1"><i class="fa fa-check"></i><b>11.6</b> Case Study</a></li>
 </ul></li>
 <li class="part"><span><b>IV Appendix</b></span></li>
 <li class="chapter" data-level="12" data-path="recreating-figures-from-front.-genetics-2021.html"><a href="recreating-figures-from-front.-genetics-2021.html"><i class="fa fa-check"></i><b>12</b> Recreating Figures from Front. Genetics (2021)</a>
@@ -381,7 +382,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><span class="math inline">\(S&#39;(f) = log_{10}(\gamma_{max}) - \kappa\left(\frac{log_{10}(f) - log_{10}(f_{max})}{\beta&#39;/2}\right)^{2}\)</span>, where <span class="math inline">\(\kappa = log_{10}(2)\)</span> and <span class="math inline">\(\beta&#39; = log_{10}(2\beta)\)</span></p>
 <p><span class="math inline">\(S(f) = log_{10}(\gamma_{max}) - \delta\)</span>, if <span class="math inline">\(f &lt; f_{max}\)</span> and <span class="math inline">\(S&#39;(f) &lt; log_{10}(\gamma_{max}) - \delta\)</span></p>
 <p><span class="math inline">\(S(f) = S&#39;(f)\)</span> when <span class="math inline">\(f &gt; f_{max}\)</span></p>
-<p>There are <strong>four parameters</strong> in the model. First, the <strong>peak gain</strong> <span class="math inline">\(\gamma_{max}\)</span> denotes the peak sensitivity of the contrast sensitivity function. Second, the <strong>peak spatial frequency</strong> essentially refers to the region of the x-axis of the CSF where the peak sensitivity <span class="math inline">\(\gamma_{max}\)</span> is located. It can also be thought of as the center of the (log) contrast sensitivity function. Third, the <strong>bandwidth</strong> <span class="math inline">\(\beta\)</span> describes the width of the contrast sensitivity function. This width is measured at the half of the maximum sensitivity <span class="math inline">\(\gamma_{max}\)</span>. Moreover, the <strong>truncation value</strong> <span class="math inline">\(\delta\)</span> is a factor that makes sure that the contrast sensitivity function is asymmetric. This factor does not have a huge importance.</p>
+<p>There are <strong>four parameters</strong> in the model. First, the <strong>peak gain</strong> <span class="math inline">\(\gamma_{max}\)</span> denotes the peak sensitivity of the contrast sensitivity function. Second, the <strong>peak spatial frequency</strong> <span class="math inline">\(f &gt; f_{max}\)</span> essentially refers to the region of the x-axis of the CSF where the peak sensitivity <span class="math inline">\(\gamma_{max}\)</span> is located. It can also be thought of as the center of the (log) contrast sensitivity function. Third, the <strong>bandwidth</strong> <span class="math inline">\(\beta\)</span> describes the width of the contrast sensitivity function. This width is measured at the half of the maximum sensitivity <span class="math inline">\(\gamma_{max}\)</span>. Moreover, the <strong>truncation value</strong> <span class="math inline">\(\delta\)</span> is a factor that makes sure that the contrast sensitivity function is asymmetric. This factor does not have a huge importance.</p>
 <p>Finally, there is another parameter, known as the cutoff spatial frequency <span class="math inline">\(f_{c}\)</span>. It is the spatial frequency where the log-sensitivity is 0 (linear sensitivity = 1) Here is the equation to calculate <span class="math inline">\(f_{c}\)</span>:</p>
 <p><span class="math inline">\(f_{c} = f_{max}*10^{\frac{\beta&#39;}{2}\sqrt\frac{log_{10}(\gamma_{max})}{\kappa}}\)</span></p>
 <p><code>sm_params</code> calculates all of these parameters automatically.</p>
@@ -433,10 +434,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb451-2"><a href="understanding-the-contrast-sensitivity-function.html#cb451-2" aria-hidden="true" tabindex="-1"></a>          param_upLimit, param_lowLimit)</span>
 <span id="cb451-3"><a href="understanding-the-contrast-sensitivity-function.html#cb451-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb451-4"><a href="understanding-the-contrast-sensitivity-function.html#cb451-4" aria-hidden="true" tabindex="-1"></a>params</span></code></pre></div>
-<pre><code>##        logGain      logPeakSF logOctaveWidth       logTrunc 
-##      1.5114544      0.1450387      0.6006582     -0.3010300 
-##    logCutOffSF 
-##      1.4909611</code></pre>
+<pre><code>##        logGain      logPeakSF logOctaveWidth       logTrunc    logCutOffSF 
+##      1.5114544      0.1450387      0.6006582     -0.3010300      1.4909611</code></pre>
 <p>The first four parameters (<code>logGain</code>, <code>logPeakSF</code>, <code>logOctaveWidth</code> and <code>logTrunc</code>) yield the lowest RSS possible between the actual data and the fitted values.</p>
 </div>
 <div id="sm_cutoff" class="section level3" number="11.2.2">
@@ -450,10 +449,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><code>sm_cutOff()</code> computes the cutoff spatial frequency and returns it in a log10 unit. In a linear spatial frequency, this can be about 30.97 c/deg.</p>
 <div class="sourceCode" id="cb457"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb457-1"><a href="understanding-the-contrast-sensitivity-function.html#cb457-1" aria-hidden="true" tabindex="-1"></a><span class="co"># linear conversion of the log units</span></span>
 <span id="cb457-2"><a href="understanding-the-contrast-sensitivity-function.html#cb457-2" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span><span class="sc">^</span>params</span></code></pre></div>
-<pre><code>##        logGain      logPeakSF logOctaveWidth       logTrunc 
-##      32.467917       1.396493       3.987110       0.500000 
-##    logCutOffSF 
-##      30.971422</code></pre>
+<pre><code>##        logGain      logPeakSF logOctaveWidth       logTrunc    logCutOffSF 
+##      32.467917       1.396493       3.987110       0.500000      30.971422</code></pre>
 <p>Let’s visually confirm whether the cut-off spatial frequency yields sensitivity that is equal to 0. First, we will need to create a sequence of x values (about 200) to plot a continuous function of the CSF model from the minimum tested SF (<code>min(ACh1$SpatialFreq)</code>) to 31 c/deg. This can be done using <code>seq()</code> function.</p>
 <p>Then using the sequence of the x values, we plug them into the CSF formulas with the parameters that we have obtained using <code>sm_params()</code> to obtain the fitted values.</p>
 <div class="sourceCode" id="cb459"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb459-1"><a href="understanding-the-contrast-sensitivity-function.html#cb459-1" aria-hidden="true" tabindex="-1"></a>grid <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="fu">seq</span>(<span class="fu">min</span>(ACh1<span class="sc">$</span>SpatialFreq),<span class="dv">31</span>, <span class="at">length =</span> <span class="dv">200</span>))</span>
@@ -601,8 +598,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>##  [1] 0.25 0.35 0.49 0.68 0.94 1.31 1.83 2.54 3.54 4.93 6.87 9.57</code></pre>
 <p><code>sm_params_list()</code> returns results that is a <code>list</code>. There are two elements in the list. The first element has a data frame of all the parameters as well as the identifiers for <code>conditions</code> and <code>subjects</code>. The second element contains a vector that has <code>x</code>, which in this case is the linear units of spatial frequency.</p>
 </div>
-<div id="case-study-1" class="section level2" number="11.5">
-<h2><span class="header-section-number">11.5</span> Case Study</h2>
+<div id="visualization-of-the-parameters" class="section level2" number="11.5">
+<h2><span class="header-section-number">11.5</span> Visualization of the parameters</h2>
+<p>Here is a visual representation of the parameters. The contrast sensitivity function has been drawn with the four parameters that have been obtained from the <code>ACh</code> data set. The four parameters have been used to draw the contrast sensitivity function all the way to 30 c/deg. The function then has been drawn. As an exercise, the reader can produce the example below. This plot has been entirely drawn with R, including the arrow and text annotations.</p>
+<p><img src="bookdownproj_files/figure-html/unnamed-chunk-343-1.png" width="350.4" /></p>
+</div>
+<div id="case-study-1" class="section level2" number="11.6">
+<h2><span class="header-section-number">11.6</span> Case Study</h2>
 <p>In the previous chapter, I foreshadow that there is a parameter that can inform us about whether the high-spatial frequency range has improved or not. There are two parameters: 1) bandwidth, and 2) cut-off spatial frequency. Kim et al does not use the bandwidth to analyze their results because the authors believe that analyzing both bandwidth and cut-off spatial frequency is redundant. Likewise, this case study only shows the analysis of cut-off spatial frequency but this can be applied to all other parameters as well.</p>
 <p>As in the previous chapter, let’s make some fake data with <code>ACh</code>. This new data frame is stored in the variable named <code>ACh3</code>. We assume that the 51 subjects are visually impaired patients who received clinical treatment for visual improvement.</p>
 <div class="sourceCode" id="cb477"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb477-1"><a href="understanding-the-contrast-sensitivity-function.html#cb477-1" aria-hidden="true" tabindex="-1"></a>ACh<span class="sc">$</span>Repetition <span class="ot">&lt;-</span> <span class="fu">factor</span>(ACh<span class="sc">$</span>Repetition)</span>
@@ -666,7 +668,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb486-7"><a href="understanding-the-contrast-sensitivity-function.html#cb486-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">&#39;Cut-off spatial frequency&#39;</span>) <span class="sc">+</span></span>
 <span id="cb486-8"><a href="understanding-the-contrast-sensitivity-function.html#cb486-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">&#39;Cut-off SF (c/deg)&#39;</span>) <span class="sc">+</span></span>
 <span id="cb486-9"><a href="understanding-the-contrast-sensitivity-function.html#cb486-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">&#39;Before/after treatment&#39;</span>) </span></code></pre></div>
-<p><img src="bookdownproj_files/figure-html/unnamed-chunk-346-1.png" width="355.2" /></p>
+<p><img src="bookdownproj_files/figure-html/unnamed-chunk-349-1.png" width="355.2" /></p>
 
 </div>
 </div>
