@@ -25,7 +25,7 @@ Note: Co-first authors are denoted with *.
 
 16 - **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Robert F. Hess, Jiawei Zhou. Modulation of mean luminance improves binocular balance across spatial frequencies in amblyopia (2022). *iScience*  25, 104598. \*co-first authors [**pdf**](pubs/min2022b.pdf)
 
-15 - Yiya Chen, Zhimo Yao, Zhifen He, Ziyun Cheng, Pi-Chun Huang, **Seung Hyun Min**, Fan Lu, Robert F. Hess, Jiawei Zhou (2022). A Joint Lateral Motion-Stereo Constraint. 2022;63(1):32. [**pdf**](pubs/chen2022.pdf)
+15 - Yiya Chen, Zhimo Yao, Zhifen He, Ziyun Cheng, Pi-Chun Huang, **Seung Hyun Min**, Fan Lu, Robert F. Hess, Jiawei Zhou (2022). A Joint Lateral Motion-Stereo Constraint. *Investigative Ophthalmology and Visual Science* 2022;63(1):32. [**pdf**](pubs/chen2022.pdf)
 
 14 - **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
 test to measure binocular balance across spatial frequency in amblyopia (2022). *iScience*  1, 103652. \*co-first authors [**pdf**](pubs/min2022.pdf)
