@@ -21,6 +21,8 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
+18 - **Seung Hyun Min**\*, Yiya Chen*, Nan Jiang, Zhifen He, Jiawei Zhou, Robert F. Hess. Issues revisited: Shifts in binocular balance depend on the deprivation duration in normal and amblyopic adults. *Ophthalmology and Therapy* (accepted)
+
 17 - **Seung Hyun Min**, Alexandre Reynaud, Robert F. Hess (2022). A brief light reduction induces a significant delay in the previously dimmed eye. *Ophthalmic and Physiological Optics* 2022;00:1-11 [**pdf**](pubs/min2022c.pdf).
 
 16 - **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Robert F. Hess, Jiawei Zhou. Modulation of mean luminance improves binocular balance across spatial frequencies in amblyopia (2022). *iScience*  25, 104598. \*co-first authors [**pdf**](pubs/min2022b.pdf)
