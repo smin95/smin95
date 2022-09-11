@@ -15,7 +15,7 @@ Note: Co-first authors are denoted with *.
 
 **Others:**
 
-3 - **Seung Hyun Min**. [PhD thesis] Neural Plasticity in Normal and Amblyopic Adult Visual Systems (2021) [**pdf**](pubs/thesis.pdf)
+3 - **Seung Hyun Min**. Neural Plasticity in Normal and Amblyopic Adult Visual Systems (2021) [**PhD thesis**](pubs/thesis.pdf)
 
 2 - **Seung Hyun Min**. Data Analysis and Visualization in R Using smplot (2021). [__Link__](https://smin95.com/dataviz/). 
 
