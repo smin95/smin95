@@ -17,7 +17,7 @@ Note: Co-first authors are denoted with *.
 
 3 - **Seung Hyun Min**. [PhD thesis] Neural Plasticity in Normal and Amblyopic Adult Visual Systems (2021). [**pdf**](pubs/thesis.pdf)
 
-2 - **Seung Hyun Min**. Data Analysis and Visualization in R Using smplot (2021). [__Link__](https://smin95.com/dataviz/). 
+2 - **Seung Hyun Min**. Data Analysis and Visualization in R Using smplot2 (2021). [__Link__](https://smin95.com/dataviz/). 
 
 1 - **Seung Hyun Min**. Data Analysis for the Life Sciences with R: Exercise Solutions (2020). [__Link__](https://smin95.github.io/da4ls_exercise_solution/)
 
