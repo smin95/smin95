@@ -13,9 +13,9 @@ title: About
 
 During high school, I was diagnosed with a nerve injury within my right hand from playing the clarinet, leaving me with no choice but to become ambidextrous. I had to longitudinally retrain my brain so that my left hand could properly write alphabets and hold chopsticks, the responsibilities that had been formerly assigned to my right hand. The experiences from my recovery sparked my interest in neural plasticity. For my undergraduate education, I pursued Anatomy and Cell Biology at McGill University and graduated within the top 10% of my class on June 2017. Subsequently, I have been working on my graduate degree at McGill University with Prof. Robert Hess on neural plasticity. The focus of my thesis has been on finding means to harness remaining levels of neural plasticity in the adult brain, a topic that parallels my experiences from playing music. During spare time, I enjoy practicing the clarinet (yes, I do still play) and reading historical fiction novels.
 
-I am the sole creator of smplot, an R package for data analysis and visualization. 
+I am an author of R packages *smplot2* and *smCSF*. 
 
-## Employment 
+### Employment 
 Assistant Professor, Dept. Ophthalmology and Optometry, Wenzhou Medical University
 
 ### Education
