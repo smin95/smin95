@@ -23,6 +23,8 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
+19 - Robert F. Hess\*, Seung Hyun Min\*. Is ocular dominance plasticity a special case of contrast adaptation? (2023). *Vision Research*. \*co-corresponding authors.
+
 18 - **Seung Hyun Min**\*, Yiya Chen*, Nan Jiang, Zhifen He, Jiawei Zhou, Robert F. Hess. Issues revisited: Shifts in binocular balance depend on the deprivation duration in normal and amblyopic adults (2022). *Ophthalmology and Therapy* \*co-first authors [**pdf**](pubs/min2022d.pdf)
 
 17 - **Seung Hyun Min**, Alexandre Reynaud, Robert F. Hess (2022). A brief light reduction induces a significant delay in the previously dimmed eye. *Ophthalmic and Physiological Optics* 2022;00:1-11 [**pdf**](pubs/min2022c.pdf).
