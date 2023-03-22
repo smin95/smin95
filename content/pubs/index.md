@@ -25,15 +25,15 @@ Note: Co-first authors are denoted with *.
 
 19 - Robert F. Hess\*, **Seung Hyun Min**\*. Is ocular dominance plasticity a special case of contrast adaptation? (2023). *Vision Research*. \*co-corresponding authors. [**pdf**](pubs/hess2023.pdf)
 
-18 - **Seung Hyun Min**\*, Yiya Chen*, Nan Jiang, Zhifen He, Jiawei Zhou, Robert F. Hess. Issues revisited: Shifts in binocular balance depend on the deprivation duration in normal and amblyopic adults (2022). *Ophthalmology and Therapy* \*co-first authors [**pdf**](pubs/min2022d.pdf)
+18 - **Seung Hyun Min**\*, Yiya Chen\*, Nan Jiang, Zhifen He, Jiawei Zhou, Robert F. Hess. Issues revisited: Shifts in binocular balance depend on the deprivation duration in normal and amblyopic adults (2022). *Ophthalmology and Therapy* \*co-first authors [**pdf**](pubs/min2022d.pdf)
 
 17 - **Seung Hyun Min**, Alexandre Reynaud, Robert F. Hess (2022). A brief light reduction induces a significant delay in the previously dimmed eye. *Ophthalmic and Physiological Optics* 2022;00:1-11 [**pdf**](pubs/min2022c.pdf).
 
-16 - **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Robert F. Hess, Jiawei Zhou. Modulation of mean luminance improves binocular balance across spatial frequencies in amblyopia (2022). *iScience*  25, 104598. \*co-first authors [**pdf**](pubs/min2022b.pdf)
+16 - **Seung Hyun Min**\*, Yu Mao\*, Shijia Chen, Robert F. Hess, Jiawei Zhou. Modulation of mean luminance improves binocular balance across spatial frequencies in amblyopia (2022). *iScience*  25, 104598. \*co-first authors [**pdf**](pubs/min2022b.pdf)
 
 15 - Yiya Chen, Zhimo Yao, Zhifen He, Ziyun Cheng, Pi-Chun Huang, **Seung Hyun Min**, Fan Lu, Robert F. Hess, Jiawei Zhou (2022). A Joint Lateral Motion-Stereo Constraint. *Investigative Ophthalmology and Visual Science* 2022;63(1):32. [**pdf**](pubs/chen2022.pdf)
 
-14 - **Seung Hyun Min**\*, Yu Mao*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
+14 - **Seung Hyun Min**\*, Yu Mao\*, Shijia Chen, Zhifen He, Robert F. Hess, Jiawei Zhou. A clinically convenient
 test to measure binocular balance across spatial frequency in amblyopia (2022). *iScience*  1, 103652. \*co-first authors [**pdf**](pubs/min2022.pdf)
 
 13 - **Seung Hyun Min**, Jiawei Zhou. smplot: An R Package for Easy and Elegant Data Visualization (2021). *Frontiers in Genetics*, 12:802894. [**pdf**](pubs/smplot2021.pdf)
