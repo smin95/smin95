@@ -23,7 +23,7 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
-20. **Seung Hyun Min**\*, Zili Wang\*, Mengting Chen, Rongjie Liu, Ling Gong, Zhifen He, Xiaoxiao Wang, Robert F Hess, Jiawei Zhou. Metaplasticity: Dark exposure boosts local excitability and visual plasticity in adult human cortex (2023). *Journal of Physiology*. 
+20 - **Seung Hyun Min**\*, Zili Wang\*, Mengting Chen, Rongjie Liu, Ling Gong, Zhifen He, Xiaoxiao Wang, Robert F Hess, Jiawei Zhou. Metaplasticity: Dark exposure boosts local excitability and visual plasticity in adult human cortex (2023). *Journal of Physiology*. 
 
 19 - Robert F. Hess\*, **Seung Hyun Min**\*. Is ocular dominance plasticity a special case of contrast adaptation? (2023). *Vision Research*. \*co-corresponding authors. [**pdf**](pubs/hess2023.pdf)
 
