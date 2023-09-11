@@ -23,7 +23,7 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
-21 - Alexandre Reynaud\*, **Seung Hyun Min**\*. Spatial frequency channels depend on stimulus bandwidth in normal and amblyopic vision: an exploratory factor analysis (2023). Frontiers in Computational Neuroscience. \*co-corresponding authors.
+21 - Alexandre Reynaud\*, **Seung Hyun Min**\*. Spatial frequency channels depend on stimulus bandwidth in normal and amblyopic vision: an exploratory factor analysis (2023). *Frontiers in Computational Neuroscience*. \*co-corresponding authors.
 
 20 - **Seung Hyun Min**\*, Zili Wang\*, Mengting Chen, Rongjie Hu, Ling Gong, Zhifen He, Xiaoxiao Wang, Robert F Hess, Jiawei Zhou. Metaplasticity: Dark exposure boosts local excitability and visual plasticity in adult human cortex (2023). *The Journal of Physiology*. \*co-first authors. [**pdf**](pubs/min2023.pdf)
 
