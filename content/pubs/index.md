@@ -23,6 +23,8 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
+22 - **Seung Hyun Min**\*, Alexandre Reynaud\*. Applying resampling and visualization methods in factor analysis to model human spatial vision (2024). *Investigative Ophthalmology and Visual Science*. \*co-corresponding authors. (in press)
+
 21 - Alexandre Reynaud\*, **Seung Hyun Min**\*. Spatial frequency channels depend on stimulus bandwidth in normal and amblyopic vision: an exploratory factor analysis (2023). *Frontiers in Computational Neuroscience*. \*co-corresponding authors. [**pdf**](pubs/reynaud2023.pdf)
 
 20 - **Seung Hyun Min**\*, Zili Wang\*, Mengting Chen, Rongjie Hu, Ling Gong, Zhifen He, Xiaoxiao Wang, Robert F Hess, Jiawei Zhou. Metaplasticity: Dark exposure boosts local excitability and visual plasticity in adult human cortex (2023). *The Journal of Physiology*. \*co-first authors. [**pdf**](pubs/min2023.pdf)
