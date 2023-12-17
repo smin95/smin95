@@ -44,6 +44,10 @@ Masters Training Scholarship (2019-2020), Fonds de researche du Quebec-Sante, Ca
 
 Masters Graduate Scholarship (2018-2019), Natural Sciences and Engineering Research Council (NSERC), Canada.
 
+### Programming
+
+R, Matlab, Python
+
 ### Etc
 
 I play the clarinet as a hobby. Here is a clip of me playing Flight of the Bumblebee by Rimsky-Korsakov with my friend Junyi, a professional pianist. 
