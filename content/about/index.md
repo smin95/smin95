@@ -2,7 +2,7 @@
 categories:
 - about
 comments: false
-date: "2020-05-19"
+date: "2023-12-17"
 draft: false
 showpagemeta: false
 slug: ""
@@ -18,6 +18,7 @@ During high school, I was diagnosed with a nerve injury within my right hand fro
 I am an author of R packages *smplot2* and *smCSF*. 
 
 ### Employment 
+
 Assistant Professor, Dept. Ophthalmology and Optometry, Wenzhou Medical University
 
 
@@ -42,9 +43,6 @@ Frederick Banting and Charles Best Canada Graduate Scholarships Doctoral Award, 
 Masters Training Scholarship (2019-2020), Fonds de researche du Quebec-Sante, Canada.
 
 Masters Graduate Scholarship (2018-2019), Natural Sciences and Engineering Research Council (NSERC), Canada.
-
-### Programming
-Python, R, Matlab
 
 ### Etc
 
