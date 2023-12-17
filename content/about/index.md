@@ -21,10 +21,10 @@ Assistant Professor, Dept. Ophthalmology and Optometry, Wenzhou Medical Universi
 
 ### Grants 
 
-2. Research Fund for International Young Scientists (Role: PI), National
+2 - Research Fund for International Young Scientists (Role: PI), National
 Natural Science Foundation of China (Jan 2024-Dec 2025)
 
-1. National Foreign Expert Project (Role: PI), The Ministry of Science and
+1 - National Foreign Expert Project (Role: PI), The Ministry of Science and
 Technology of the People's Republic of China (Jan 2022-Dec 2023).
 
 ### Education
