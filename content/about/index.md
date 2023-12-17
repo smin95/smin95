@@ -9,6 +9,7 @@ slug: ""
 tags:
 - about
 title: About
+toc: no
 ---
 
 ### Bio
