@@ -23,7 +23,7 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
-22 - **Seung Hyun Min**\*, Alexandre Reynaud\*. Applying resampling and visualization methods in factor analysis to model human spatial vision (2024). *Investigative Ophthalmology and Visual Science*. \*co-corresponding authors. (in press)
+22 - **Seung Hyun Min**\*, Alexandre Reynaud\*. Applying resampling and visualization methods in factor analysis to model human spatial vision (2024). *Investigative Ophthalmology and Visual Science*. \*co-corresponding authors. [**pdf**](pubs/min2024.pdf)
 
 21 - Alexandre Reynaud\*, **Seung Hyun Min**\*. Spatial frequency channels depend on stimulus bandwidth in normal and amblyopic vision: an exploratory factor analysis (2023). *Frontiers in Computational Neuroscience*. \*co-corresponding authors. [**pdf**](pubs/reynaud2023.pdf)
 
