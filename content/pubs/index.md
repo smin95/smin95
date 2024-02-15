@@ -23,9 +23,9 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
-24 - Liying Zou, Chenyan Zhou, Robert F. Hess, Jiawei Zhou, **Seung Hyun Min**. Daily dose-response from short-term monocular deprivation in adult humans (2024). *Ophthalmic and Physiological Optics*.
+24 - Liying Zou, Chenyan Zhou, Robert F. Hess, Jiawei Zhou, **Seung Hyun Min**. Daily dose-response from short-term monocular deprivation in adult humans (2024). *Ophthalmic and Physiological Optics*. [**pdf**](pubs/zou2024.pdf)
 
-23 - Nan Jiang, Yang Zheng, Mengting Chen,  Jiawei Zhou\*, **Seung Hyun Min**\*. Binocular balance across spatial frequency in anisomyopia (2024). *Frontiers in Neuroscience*, 18:1349436.  \*co-corresponding authors.
+23 - Nan Jiang, Yang Zheng, Mengting Chen,  Jiawei Zhou\*, **Seung Hyun Min**\*. Binocular balance across spatial frequency in anisomyopia (2024). *Frontiers in Neuroscience*, 18:1349436.  \*co-corresponding authors. [**pdf**](pubs/jiang2024.pdf)
 
 22 - **Seung Hyun Min**\*, Alexandre Reynaud\*. Applying resampling and visualization methods in factor analysis to model human spatial vision (2024). *Investigative Ophthalmology and Visual Science*. \*co-corresponding authors. [**pdf**](pubs/min2024.pdf)
 
