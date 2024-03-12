@@ -23,6 +23,8 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
+25 - Shiqi Zhou, Liuqing Weng, Chenyan Zhou, Jiawei Zhou, **Seung Hyun Min**. Reduced monocular luminance promotes fusion but not mixed perception in amblyopia (in press). *Investigative Ophthalmology and Visual Science*. 
+
 24 - Liying Zou, Chenyan Zhou, Robert F. Hess, Jiawei Zhou, **Seung Hyun Min**. Daily dose-response from short-term monocular deprivation in adult humans (2024). *Ophthalmic and Physiological Optics*. [**pdf**](pubs/zou2024.pdf)
 
 23 - Nan Jiang, Yang Zheng, Mengting Chen,  Jiawei Zhou\*, **Seung Hyun Min**\*. Binocular balance across spatial frequency in anisomyopia (2024). *Frontiers in Neuroscience*, 18:1349436.  \*co-corresponding authors. [**pdf**](pubs/jiang2024.pdf)
