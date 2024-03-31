@@ -15,7 +15,7 @@ Note: Co-first authors are denoted with *.
 
 **Others:**
 
-3 - **Seung Hyun Min**. Data Analysis and Visualization in R Using smplot2 (2022). [__Link__](https://smin95.com/dataviz/). 
+3 - **Seung Hyun Min**. Data Analysis and Visualization in R Using smplot2 (2022). [__Link__](https://smin95.github.io/dataviz/). 
 
 2 - **Seung Hyun Min**. [PhD thesis] Neural Plasticity in Normal and Amblyopic Adult Visual Systems (2021). [**pdf**](pubs/thesis.pdf)
 
