@@ -4,11 +4,6 @@ A1,0.677945292,1,Amblyopia,One
 A1,0.867590949,2,Amblyopia,One
 A1,1.447273753,4,Amblyopia,One
 A1,0.868381123,8,Amblyopia,One
-A10,0.138922323,0.5,Amblyopia,One
-A10,0.44847533,1,Amblyopia,One
-A10,0.667176624,2,Amblyopia,One
-A10,1.119746662,4,Amblyopia,One
-A10,1.704886181,8,Amblyopia,One
 A2,0.236728665,0.5,Amblyopia,One
 A2,0.397460809,1,Amblyopia,One
 A2,0.81285452,2,Amblyopia,One
@@ -54,11 +49,6 @@ N1,0.090720936,1,Normal,One
 N1,0.051787239,2,Normal,One
 N1,0.118048132,4,Normal,One
 N1,0.474307828,8,Normal,One
-N10,0.604652824,0.5,Normal,One
-N10,0.046800855,1,Normal,One
-N10,0.002718918,2,Normal,One
-N10,0.082930967,4,Normal,One
-N10,0.39218166,8,Normal,One
 N2,0.112634762,0.5,Normal,One
 N2,0.038493419,1,Normal,One
 N2,0.502911648,2,Normal,One
@@ -104,11 +94,6 @@ A1,0.81353435,1,Amblyopia,Two
 A1,1.041109139,2,Amblyopia,Two
 A1,1.736728504,4,Amblyopia,Two
 A1,1.042057348,8,Amblyopia,Two
-A10,0.166706788,0.5,Amblyopia,Two
-A10,0.538170396,1,Amblyopia,Two
-A10,0.800611949,2,Amblyopia,Two
-A10,1.343695994,4,Amblyopia,Two
-A10,2.045863417,8,Amblyopia,Two
 A2,0.284074398,0.5,Amblyopia,Two
 A2,0.476952971,1,Amblyopia,Two
 A2,0.975425424,2,Amblyopia,Two
@@ -154,11 +139,6 @@ N1,0.108865123,1,Normal,Two
 N1,0.062144687,2,Normal,Two
 N1,0.141657758,4,Normal,Two
 N1,0.569169394,8,Normal,Two
-N10,0.725583389,0.5,Normal,Two
-N10,0.056161026,1,Normal,Two
-N10,0.003262702,2,Normal,Two
-N10,0.09951716,4,Normal,Two
-N10,0.470617992,8,Normal,Two
 N2,0.135161714,0.5,Normal,Two
 N2,0.046192103,1,Normal,Two
 N2,0.603493978,2,Normal,Two
