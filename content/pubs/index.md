@@ -23,7 +23,7 @@ Note: Co-first authors are denoted with *.
 
 **Peer-reviewed publications:**
 
-26 - Alex S. Baldwin, **Seung Hyun Min**, Sara Alarcon Carrillo, Zili Wang, Ziyun Cheng, Jiawei Zhou, and Robert F. Hess. Stereo-anomaly is found more frequently in tasks that require discrimination between depths. *iScience* (in press).
+26 - Alex S. Baldwin, **Seung Hyun Min**, Sara Alarcon Carrillo, Zili Wang, Ziyun Cheng, Jiawei Zhou, and Robert F. Hess. Stereo-anomaly is found more frequently in tasks that require discrimination between depths (2024). *iScience*. [**pdf**](pubs/baldwin2024.pdf) 
 
 25 - Shiqi Zhou, Liuqing Weng, Chenyan Zhou, Jiawei Zhou\*, **Seung Hyun Min**\*. Reduced monocular luminance promotes fusion but not mixed perception in amblyopia (2024). *Investigative Ophthalmology and Visual Science*. [**pdf**](pubs/zhou2024.pdf) \*co-corresponding authors.
 
