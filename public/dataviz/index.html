@@ -283,11 +283,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.2" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#plotting-the-averaged-data-with-error-bars"><i class="fa fa-check"></i><b>7.2</b> Plotting the averaged data with error bars</a></li>
 <li class="chapter" data-level="7.3" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#plotting-individual-data"><i class="fa fa-check"></i><b>7.3</b> Plotting individual data</a></li>
 <li class="chapter" data-level="7.4" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#putting-multiple-plots-together-a-composite-figure"><i class="fa fa-check"></i><b>7.4</b> Putting multiple plots together (a composite figure)</a></li>
-<li class="chapter" data-level="7.5" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#adding-annotations-to-the-composite-figure"><i class="fa fa-check"></i><b>7.5</b> Adding annotations to the composite figure</a>
+<li class="chapter" data-level="7.5" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#other-important-inputs-of-sm_put_together"><i class="fa fa-check"></i><b>7.5</b> Other important inputs of <code>sm_put_together()</code></a></li>
+<li class="chapter" data-level="7.6" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#adding-annotations-to-the-composite-figure"><i class="fa fa-check"></i><b>7.6</b> Adding annotations to the composite figure</a>
 <ul>
-<li class="chapter" data-level="7.5.1" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#text-annotations"><i class="fa fa-check"></i><b>7.5.1</b> Text annotations</a></li>
-<li class="chapter" data-level="7.5.2" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#point-annotations"><i class="fa fa-check"></i><b>7.5.2</b> Point annotations</a></li>
-<li class="chapter" data-level="7.5.3" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#line-annotations"><i class="fa fa-check"></i><b>7.5.3</b> Line annotations</a></li>
+<li class="chapter" data-level="7.6.1" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#text-annotations"><i class="fa fa-check"></i><b>7.6.1</b> Text annotations</a></li>
+<li class="chapter" data-level="7.6.2" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#point-annotations"><i class="fa fa-check"></i><b>7.6.2</b> Point annotations</a></li>
+<li class="chapter" data-level="7.6.3" data-path="creating-a-composite-figure-by-subplotting.html"><a href="creating-a-composite-figure-by-subplotting.html#line-annotations"><i class="fa fa-check"></i><b>7.6.3</b> Line annotations</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="calculating-area-under-a-curve.html"><a href="calculating-area-under-a-curve.html"><i class="fa fa-check"></i><b>8</b> Calculating Area under a Curve</a>
@@ -442,7 +443,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="header">
 <h1 class="title">Data Analysis and Visualization in R Using smplot2</h1>
 <p class="author"><em>Seung Hyun Min</em></p>
-<p class="date"><em>Last Updated: 2024-04-26</em></p>
+<p class="date"><em>Last Updated: 2024-05-24</em></p>
 </div>
 <div id="index" class="section level1 unnumbered hasAnchor">
 <h1>Welcome!<a href="index.html#index" class="anchor-section" aria-label="Anchor link to header"></a></h1>
@@ -467,7 +468,7 @@ Figure 0.1: For more information about creating and annotating a composite figur
 <h2>Installation of smplot2<a href="index.html#installation-of-smplot2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>As of April 2024, <em>smplot2</em> is now part of the <strong>CRAN</strong> repository. Please install using <code>install.packages()</code> for the most stable version.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&#39;smplot2&#39;</span>)</span></code></pre></div>
-<p>and <code>install_github()</code> for the most updated version. I suggest that you download the most updated version.</p>
+<p>If users wish to download the most updated version of <em>smplot2</em> (most recent version: 0.2.1.2 from <strong>2024-05-24</strong>), please use <code>install_github()</code>. This might be necessary if some codes from the documentation webpage do not work in RStudio as intended.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="index.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&#39;devtools)</span></span>
 <span id="cb2-2"><a href="index.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="st">devtools::install_github(&#39;</span>smin95<span class="sc">/</span>smplot2<span class="st">&#39;,force = T)</span></span></code></pre></div>
 </div>
