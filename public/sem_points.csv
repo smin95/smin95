@@ -1,0 +1,13 @@
+"x","y","shape","color","size","border_color","border_width","alpha","locked"
+-34.4,-7.85,"circle","#FC8888",100,"#FFFFFF",1,1,FALSE
+4,-7.85,"circle","#FC8888",100,"#FFFFFF",1,1,FALSE
+42.4,-7.85,"circle","#FC8888",100,"#FFFFFF",1,1,FALSE
+-47.2,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+-34.4,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+-21.6,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+-8.8,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+4,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+16.8,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+29.6,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+42.4,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
+55.2,4.95,"square","#FFCCDC",80,"#FFFFFF",1,1,FALSE
