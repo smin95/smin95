@@ -1,4 +1,4 @@
-x_start,y_start,x_end,y_end,ctrl_x,ctrl_y,type,color,end_color,color_type,gradient_position,width,alpha,arrow,arrow_type,arrow_size,two_way,lavaan
-2,-2,8,-2,NA,NA,Straight Line,#000000,NA,Single,NA,1,1,FALSE,NA,NA,FALSE,FALSE
-2,12,8,12,5,13.8,Curved Line,#F57373,#53F26D,Gradient,0.5,2,1,FALSE,NA,NA,FALSE,FALSE
-18,5,12,5,NA,NA,Straight Arrow,#9E9E9E,#54F5AF,Gradient,0.2,2,1,TRUE,open,0.2,FALSE,FALSE
+"x_start","y_start","x_end","y_end","ctrl_x","ctrl_y","type","color","end_color","color_type","gradient_position","width","alpha","arrow","arrow_type","arrow_size","two_way","lavaan","line_style"
+2,-2,8,-2,NA,NA,"Straight Line","#000000",NA,"Single",NA,1,1,FALSE,NA,NA,FALSE,FALSE,"solid"
+2,12,8,12,5,13.8,"Curved Line","#F57373","#53F26D","Gradient",0.5,2,1,FALSE,NA,NA,FALSE,FALSE,"solid"
+18,5,12,5,NA,NA,"Straight Arrow","#9E9E9E","#54F5AF","Gradient",0.2,2,1,TRUE,"open",0.2,FALSE,FALSE,"solid"

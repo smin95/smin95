@@ -1,2 +1,1 @@
-"x_center","y_center","radius","color","width","alpha","arrow_type","arrow_size","gap_size","loop_width","loop_height","orientation","two_way","locked"
--5,5,2,"#000000",1,1,"closed",0.1,0.2,1,1,0,FALSE,FALSE
+"x_center","y_center","radius","color","width","alpha","arrow_type","arrow_size","gap_size","loop_width","loop_height","orientation","locked"
