@@ -1,2 +1,2 @@
-"text","x","y","font","size","color","angle","alpha","fontface","math_expression","lavaan"
-"Square One",26,5,"Arial",20,"#000000",0,1,"bold",FALSE,FALSE
+text,x,y,font,size,color,angle,alpha,fontface,math_expression,lavaan
+Square One,26,5,sans,20,#000000,0,1,bold,FALSE,FALSE
