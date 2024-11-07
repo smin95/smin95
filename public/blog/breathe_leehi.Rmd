@@ -13,7 +13,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Breathe is one of my favorite songs. Many covers have been recorded. Here are my favorites.
+Breathe is one of my favorite songs. Several covers have been recorded. Here are my favorites.
 
 ### Original by Lee hi
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5iSlfF8TQ9k" frameborder="0" allowfullscreen></iframe>

@@ -11,13 +11,13 @@ tags:
 title: Publications
 ---
 
-**Others:**
+**R Packages:**
 
-3 - **Seung Hyun Min**. Visualizing Data for Publications Using smplot2 (2022). [__Link__](https://smin95.github.io/dataviz/) [__Link2__](https://smin95.com/dataviz/). 
+3 - **ggsem**: Interactively Visualize Structural Equation Modeling Diagrams. [__Link__](https://smin95.github.io/ggsem/) [__CRAN__](https://cran.r-project.org/web/packages/ggsem/index.html). 
 
-2 - **Seung Hyun Min**. [PhD thesis] Neural Plasticity in Normal and Amblyopic Adult Visual Systems (2021). [**pdf**](pubs/thesis.pdf)
+2 - **smCSF**: Analyze and Visualize Contrast Sensitivity Data with the Grammar of Graphics Interface. [__Link__](https://smin95.github.io/dataviz/).
 
-1 - **Seung Hyun Min**. Data Analysis for the Life Sciences with R: Exercise Solutions (2020). [__Link__](https://smin95.github.io/da4ls_exercise_solution/)
+1 - **smplot2**: Creating Standalone and Composite Plots in 'ggplot2' for Publications. [__Link__](https://smin95.github.io/dataviz/) [__CRAN__](https://cran.r-project.org/web/packages/smplot2/index.html). 
 
 **Peer-reviewed publications:**
 
