@@ -19,7 +19,7 @@ title: Publications
 
 1 - **smplot2**: Creating Standalone and Composite Plots in 'ggplot2' for Publications. [__Link__](https://smin95.github.io/dataviz/) [__CRAN__](https://cran.r-project.org/web/packages/smplot2/index.html). 
 
-**Peer-reviewed Publications:**
+**Peer-reviewed Publications:** 
 
 27 - **Seung Hyun Min**. Visualization of composite plots in R using a programmatic approach and *smplot2* (2024). ***Advances in Methods and Practices in Psychological Science*** , 7(3). [**pdf**](pubs/ampps2024.pdf)  [**codes**](smplot2doc.html) 
 
