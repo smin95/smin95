@@ -1,1 +1,3 @@
 User-agent: *
+Allow:/
+Sitemap: https://www.smin95.com/sitemap.xml
