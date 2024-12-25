@@ -1,2 +1,2 @@
-"x","y","shape","color","size","border_color","border_width","alpha","locked","lavaan"
-5,5,"square","#D0C5ED",50,"#9646D4",2,1,FALSE,FALSE
+"x","y","shape","color","size","border_color","border_width","alpha","width_height_ratio","orientation","locked","lavaan"
+5,5,"square","#D0C5ED",15,"#9646D4",2,1,1,0,FALSE,FALSE
