@@ -1,2 +1,2 @@
-text,x,y,font,size,color,angle,alpha,fontface,math_expression,lavaan,network,locked
-Square One,26,5,sans,20,#000000,0,1,bold,FALSE,FALSE,FALSE,FALSE
+"text","x","y","font","size","color","angle","alpha","fontface","math_expression","lavaan","network","locked"
+"Square One",26,5,"sans",20,"#000000",0,1,"plain",FALSE,FALSE,FALSE,FALSE
