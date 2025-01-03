@@ -1,0 +1,7 @@
+"text","x","y","font","size","color","angle","alpha","fontface","math_expression","lavaan","network","locked"
+"A",-3.55578881929876,4.09497815743302,"sans",15,"#FFFFFF",0,1,"plain",FALSE,FALSE,TRUE,TRUE
+"B",10,10,"sans",15,"#FFFFFF",0,1,"plain",FALSE,FALSE,TRUE,TRUE
+"C",7.22682760435856,1.3310010021981,"sans",15,"#FFFFFF",0,1,"plain",FALSE,FALSE,TRUE,TRUE
+"D",0.169286487197715,-10,"sans",15,"#FFFFFF",0,1,"plain",FALSE,FALSE,TRUE,TRUE
+"E",-10,-4.63523222284992,"sans",15,"#FFFFFF",0,1,"plain",FALSE,FALSE,TRUE,TRUE
+"My Network Data",0,17,"sans",22,"#000000",0,1,"bold",FALSE,FALSE,FALSE,FALSE

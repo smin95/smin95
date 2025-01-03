@@ -1,0 +1,7 @@
+"x_start","y_start","x_end","y_end","ctrl_x","ctrl_y","type","color","end_color","color_type","gradient_position","width","alpha","arrow","arrow_type","arrow_size","two_way","lavaan","network","locked","line_style"
+-0.763995975262399,5.31110788206307,7.20820715596363,8.78387027536995,NA,NA,"Straight Arrow","#000000",NA,"Single",NA,1,1,TRUE,"closed",0.1,FALSE,FALSE,TRUE,TRUE,"solid"
+-0.712107744515996,3.36603916724241,4.38314652957579,2.05993999238871,NA,NA,"Straight Arrow","#000000",NA,"Single",NA,1.75,1,TRUE,"closed",0.1,FALSE,FALSE,TRUE,TRUE,"solid"
+9.09551093170768,7.17254692175917,8.13131667265088,4.15845408043893,NA,NA,"Straight Arrow","#000000",NA,"Single",NA,2.5,1,TRUE,"closed",0.1,FALSE,FALSE,TRUE,TRUE,"solid"
+5.53029192162275,-1.39281557955745,1.86582216993353,-7.27618341824445,NA,NA,"Straight Arrow","#000000",NA,"Single",NA,1.375,1,TRUE,"closed",0.1,FALSE,FALSE,TRUE,TRUE,"solid"
+-2.59018282496691,-8.54425263104032,-7.24053068783538,-6.09097959180959,NA,NA,"Straight Arrow","#000000",NA,"Single",NA,1.75,1,TRUE,"closed",0.1,FALSE,FALSE,TRUE,TRUE,"solid"
+-8.02208617933489,-1.95567947631863,-5.53370263996387,1.41542541090174,NA,NA,"Straight Arrow","#000000",NA,"Single",NA,2.125,1,TRUE,"closed",0.1,FALSE,FALSE,TRUE,TRUE,"solid"
