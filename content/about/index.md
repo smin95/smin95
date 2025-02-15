@@ -18,7 +18,8 @@ I am the developer of R packages *ggsem*, *smplot2* and *smCSF*.
 
 ### Employment 
 
-Assistant Professor, Dept. Ophthalmology and Optometry, Wenzhou Medical University
+Current: Associate Professor, Dept. Psychology, Zhejiang Sci-Tech University 
+2021.01-2025.01: Assistant Professor, Dept. Ophthalmology and Optometry, Wenzhou Medical University
 
 
 ### Grants 

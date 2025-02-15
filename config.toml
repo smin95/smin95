@@ -22,8 +22,8 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Seung Hyun (Sam) Min"
-intro = "Assistant Professor"
-description = "Binocular Vision, Neural Plasticity, Computational Modeling"
+intro = "Associate Professor"
+description = "Visual cognition, Computational Neuroscience"
 #"Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
 authorimage = "vc_pic1.jpg"
 dateformat = "Jan 2, 2006"
