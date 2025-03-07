@@ -21,6 +21,8 @@ title: Publications
 
 **Peer-reviewed Publications:** 
 
+28 - Chenyan Zhou, Jiawei Zhou\*, **Seung Hyun Min**\*. Temporal frequency modulation of binocular balance in normal and amblyopic Vision (accepted). ***Investigative Ophthalmology and Visual Science***. \*co-corresponding authors.
+
 27 - **Seung Hyun Min**. Visualization of composite plots in R using a programmatic approach and *smplot2* (2024). ***Advances in Methods and Practices in Psychological Science*** , 7(3). [**pdf**](pubs/ampps2024.pdf)  [**codes**](smplot2doc.html) 
 
 26 - Alex S. Baldwin, **Seung Hyun Min**, Sara Alarcon Carrillo, Zili Wang, Ziyun Cheng, Jiawei Zhou, and Robert F. Hess. Stereo-anomaly is found more frequently in tasks that require discrimination between depths (2024). ***iScience***. [**pdf**](pubs/baldwin2024.pdf) 
