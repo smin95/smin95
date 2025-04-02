@@ -21,6 +21,8 @@ title: Publications
 
 **Peer-reviewed Publications:** 
 
+29 - Mengting Chen, Jian Li, Nan Jiang, Jiawei Zhou\*, **Seung Hyun Min**\*. 	Motion Misperception in Anisomyopia Before and After Optical Correction (accepted). ***Investigative Ophthalmology and Visual Science***. \*co-corresponding authors.
+
 28 - Chenyan Zhou, Jiawei Zhou\*, **Seung Hyun Min**\*. Temporal frequency modulation of binocular balance in normal and amblyopic vision (accepted). ***Investigative Ophthalmology and Visual Science***. \*co-corresponding authors.
 
 27 - **Seung Hyun Min**. Visualization of composite plots in R using a programmatic approach and *smplot2* (2024). ***Advances in Methods and Practices in Psychological Science*** , 7(3). [**pdf**](pubs/ampps2024.pdf)  [**codes**](smplot2doc.html) 
