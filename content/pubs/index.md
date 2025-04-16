@@ -13,8 +13,6 @@ title: Publications
 
 **R Packages:**
 
-3 - **ggsem**: Interactively Visualize Structural Equation Modeling Diagrams. [__Link__](https://smin95.github.io/ggsem/) [__CRAN__](https://cran.r-project.org/web/packages/ggsem/index.html). 
-
 2 - **smCSF**: Analyze and Visualize Contrast Sensitivity Data with the Grammar of Graphics Interface. [__Link__](https://smin95.github.io/dataviz/).
 
 1 - **smplot2**: Creating Standalone and Composite Plots in 'ggplot2' for Publications. [__Link__](https://smin95.github.io/dataviz/) [__CRAN__](https://cran.r-project.org/web/packages/smplot2/index.html). 
