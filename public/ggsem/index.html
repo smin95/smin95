@@ -11,18 +11,18 @@
 <script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Interactively Visualize Structural Equation Modeling Diagrams">
-<meta name="description" content="It allows users to perform interactive and reproducible visualizations of path diagrams for structural equation modeling (SEM) and small-to-medium sized networks using the ggplot2 engine. Its shiny app provides an interface that allows extensive customization, and creates CSV outputs, which can then be used to recreate the figures either using the shiny app or in a typical ggplot2 workflow.">
-<meta property="og:description" content="It allows users to perform interactive and reproducible visualizations of path diagrams for structural equation modeling (SEM) and small-to-medium sized networks using the ggplot2 engine. Its shiny app provides an interface that allows extensive customization, and creates CSV outputs, which can then be used to recreate the figures either using the shiny app or in a typical ggplot2 workflow.">
+<meta name="description" content="It is an R package and web-based application, allowing users to perform interactive and reproducible visualizations of path diagrams for structural equation modeling (SEM) and networks using the ggplot2 engine. Its app (built with shiny) provides an interface that allows extensive customization, and creates CSV outputs, which can then be used to recreate the figures either using the web app or script-based workflow.">
+<meta property="og:description" content="It is an R package and web-based application, allowing users to perform interactive and reproducible visualizations of path diagrams for structural equation modeling (SEM) and networks using the ggplot2 engine. Its app (built with shiny) provides an interface that allows extensive customization, and creates CSV outputs, which can then be used to recreate the figures either using the web app or script-based workflow.">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
 
 
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark" aria-label="Site navigation"><div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light" data-bs-theme="light" aria-label="Site navigation"><div class="container">
 
     <a class="navbar-brand me-2" href="index.html">ggsem</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.4</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,9 +36,12 @@
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
 <li><a class="dropdown-item" href="articles/elements.html">1. Drawing Elements</a></li>
-    <li><a class="dropdown-item" href="articles/networks.html">2. Plotting Networks</a></li>
-    <li><a class="dropdown-item" href="articles/lavaan.html">3. Visualizing Structural Equation Modeling Diagrams</a></li>
-    <li><a class="dropdown-item" href="articles/annotations.html">4. Annotating Any ggplot Object</a></li>
+    <li><a class="dropdown-item" href="articles/networks.html">2. Drawing Networks Without Data</a></li>
+    <li><a class="dropdown-item" href="articles/lavaan.html">3. Drawing Structural Equation Modeling Diagrams Without Data</a></li>
+    <li><a class="dropdown-item" href="articles/annotations.html">4. Annotating Any ggplot Objects</a></li>
+    <li><a class="dropdown-item" href="articles/network_data.html">5. Visualizing Network Using Data</a></li>
+    <li><a class="dropdown-item" href="articles/sem_data.html">6. Visualizing SEM Diagrams Using Data</a></li>
+    <li><a class="dropdown-item" href="articles/others.html">7. Other Tips</a></li>
   </ul>
 </li>
       </ul>
@@ -55,23 +58,29 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><p align="center">
-</p>
-<div class="page-header"><h1>
-<strong>ggsem</strong>: Interactive and Reproducible Visualizations of Networks and Structural Equation Modeling Diagrams
+<img src="reference/figures/hex_code.png" height="170px" width="153px" style="float: right; margin-top: 27px;" align="right"></p>
+<div class="page-header"><h1 align="left" style="font-size: 1.9em;">
+<strong>ggsem</strong>: An R Package for Interactive and Reproducible Visualizations of Networks and Structural Equation Modeling Diagrams
 </h1></div>
 
+<p><a href="https://cran.r-project.org/package=ggsem" class="external-link"><img src="http://cranlogs.r-pkg.org/badges/grand-total/ggsem?color=pink"></a> <a href="https://github.com/smin95/ggsem" class="external-link"><img src="https://img.shields.io/badge/devel%20version-0.2.4-black.svg"></a> <a href="https://CRAN.R-project.org/package=ggsem" class="external-link"><img src="http://www.r-pkg.org/badges/version-ago/ggsem?color=green" alt="CRAN_Release_Badge"></a></p>
 <p>Author: Seung Hyun Min</p>
-<p><strong>ggsem</strong> is an R package that allows users to draw path diagrams for structural equation modeling (SEM) and small-to-medium sized networks interactively using the <strong>ggplot2</strong> engine.</p>
-<p>As the core of the <strong>ggsem</strong> package, its <strong>shiny</strong> app provides an interface that allows extensive customization, and creates CSV outputs, which can then be used to recreate the figures either using the <strong>shiny</strong> app or in a typical ggplot2 workflow. This will be useful to generate reproducible manuscripts.</p>
-<p>Unique features of this R package include options for users to draw gradient lines, gradient arrows, self-loop arrows, as well as interactively change the layout of nodes and edges. Also, <strong>ggsem</strong> provides layouts of the nodes and edges from the <strong>igraph</strong> package for networks, understands the string input form in <em>laavan</em>’s syntax, and supports layouts from the <strong>semPlot</strong> package for SEM diagrams.</p>
-<p>The outputs from the <strong>ggsem</strong> interactive app can be recreated as a raw <strong>ggplot</strong> output in RStudio, allowing users to further modify the graphical output using a <strong>ggplot2</strong> workflow.</p>
-<p><a href="https://smin95.shinyapps.io/ggsem/" class="external-link"><img src="articles/layout1.png"></a> <img src="articles/net_tgd.png"><img src="articles/sem_plot4.png"></p>
+<p><strong>ggsem</strong> is a web-based application and an R package, enabling users to draw path diagrams for structural equation modeling (SEM) and networks interactively using the <strong>ggplot2</strong> engine.</p>
+<p>As the core of the <strong>ggsem</strong> package, its web app (built with <strong>Shiny</strong>) provides an interface that allows extensive customization, and creates CSV outputs, which can then be used to recreate the figures either using the web app or in a typical ggplot2 workflow. This will be useful to generate reproducible figures.</p>
+<p>Unique features of this R package include options for users to draw gradient lines, gradient arrows, self-loop arrows, as well as interactively change the layout of nodes and edges. Also, <strong>ggsem</strong> provides layouts of the nodes and edges from the <strong>igraph</strong> package for networks, understands the string input form in <strong>laavan</strong>’s syntax, and supports layouts from the <strong>semPlot</strong> package for SEM diagrams.</p>
+<p><strong>Coding is optional</strong> as users can create high-quality figures of network and SEM diagrams from start to finish within the <strong>ggsem</strong> application.</p>
+<p>Nevertheless, the outputs from <strong>ggsem</strong> can be recreated as a raw <strong>ggplot</strong> output in script-based workflow, allowing users to further modify the graphical output using other packages.</p>
+<p><a href="https://smin95.shinyapps.io/ggsem/" class="external-link"> <img src="articles/layout1.png" alt="layout1" width="750"></a>    <img src="articles/fig6f.png" alt="fig6f" width="640"></p>
+<p>The SEM diagram was created using data and a model without coding (see Chapter 6).</p>
+<p><img src="articles/p4.png" alt="p4" width="640"></p>
+<p>The two networks were separately generated from the <strong>ggsem</strong> app, annotated with <strong>ggplot2</strong> functions, and combined with <strong>patchwork</strong> in script-based workflow (see Chapter 4).</p>
 <div class="section level3">
 <h3 id="installation-using-rstudio">Installation using RStudio<a class="anchor" aria-label="anchor" href="#installation-using-rstudio"></a>
 </h3>
 <p>The stable version of <strong>ggsem</strong> can be installed using <code><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages()</a></code> from the Comprehensive R Archive Network (CRAN).</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"ggsem"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"dplyr"</span>, <span class="st">"semPlot"</span><span class="op">)</span><span class="op">)</span> <span class="co"># Required to run ggsem app locally</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"ggsem"</span><span class="op">)</span></span></code></pre></div>
 <p>The examples on this website use the development version of the package, which can be directly downloaded using the code below:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"devtools"</span><span class="op">)</span></span>
@@ -81,15 +90,21 @@
 <h3 id="running-the-ggsem-app">Running the ggsem App<a class="anchor" aria-label="anchor" href="#running-the-ggsem-app"></a>
 </h3>
 <p>The <strong>ggsem</strong> app can be initiated online using the link: <a href="https://smin95.shinyapps.io/ggsem/" class="external-link uri">https://smin95.shinyapps.io/ggsem/</a>.</p>
-<p>It can also be started locally in RStudio (it runs faster):</p>
+<p>It can also be started locally in RStudio:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">ggsem</span><span class="fu">::</span><span class="fu"><a href="reference/launch.html">launch</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"ggsem"</span>, <span class="st">"dplyr"</span>, <span class="st">"semPlot"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu">ggsem</span><span class="fu">::</span><span class="fu"><a href="reference/ggsem.html">ggsem</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p>To access an updated tutorial (sample codes and figures) of the package, please visit <a href="https://smin95.github.io/ggsem/" class="uri">https://smin95.github.io/ggsem/</a>.</p>
 </div>
 <div class="section level3">
 <h3 id="disclosure">Disclosure<a class="anchor" aria-label="anchor" href="#disclosure"></a>
 </h3>
 <p>The creation of the package was in part inspired by this blog post: <a href="https://drsimonj.svbtle.com/ggsem-plot-sem-models-with-ggplot2" class="external-link uri">https://drsimonj.svbtle.com/ggsem-plot-sem-models-with-ggplot2</a>.</p>
+</div>
+<div class="section level3">
+<h3 id="issues-and-contact">Issues and contact<a class="anchor" aria-label="anchor" href="#issues-and-contact"></a>
+</h3>
+<p>If you find any issues with <strong>ggsem</strong> (both application and package), please contact me via email (seung.min@mail.mcgill.ca).</p>
 </div>
 
   </main><aside class="col-md-3"><div class="links">
