@@ -19,6 +19,8 @@ title: Publications
 
 **Peer-reviewed Publications:** 
 
+30. **Seung Hyun Min**. Ocular dominance plasticity: A mini-review (in press). ***Eye and Brain***.
+
 29 - Mengting Chen, Jian Li, Nan Jiang, Jiawei Zhou\*, **Seung Hyun Min**\*. 	Motion Misperception in Anisomyopia Before and After Optical Correction (2025). ***Investigative Ophthalmology and Visual Science***, 66(4):71. \*co-corresponding authors. [**pdf**](pubs/chen2025.pdf)
 
 28 - Chenyan Zhou, Jiawei Zhou\*, **Seung Hyun Min**\*. Temporal Frequency Modulation of Binocular Balance in Normal and Amblyopic Vision (2025). ***Investigative Ophthalmology and Visual Science***, 66(4):8. \*co-corresponding authors. [**pdf**](pubs/zhou2025.pdf)
