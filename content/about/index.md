@@ -12,9 +12,15 @@ title: About
 toc: no
 ---
 
-During high school, I was diagnosed with a nerve injury within my right hand from playing the clarinet, leaving me with no choice but to become ambidextrous. I had to longitudinally retrain my brain so that my left hand could properly write alphabets and hold chopsticks, the responsibilities that had been formerly assigned to my right hand. The experiences from my recovery sparked my interest in neural plasticity. For my undergraduate education, I pursued Anatomy and Cell Biology at McGill University and graduated within the top 10% of my class on June 2017. Subsequently, I finished my PhD at McGill University with Prof. Robert Hess on neural plasticity in 2021. The focus of my thesis was on finding means to harness remaining levels of neural plasticity in the adult brain, a topic that parallels my experiences from playing music. During spare time, I enjoy practicing the clarinet (yes, I do still play) and reading historical fiction novels.
+I started in the life sciences, but became fascinated with data visualization during my PhD. I worked through several tools-starting in MATLAB, moving to Python (matplotlib/seaborn), and finally landing in R with ggplot2. After defending my PhD, I packaged the custom plotting functions I had built into [**smplot**](pubs/smplot2021.pdf), my first R package. Looking back, it was essentially a set of Python-to-ggplot2 translations of my go-to plotting routines.
 
-I am the developer of R packages *ggsem*, *smplot2* and *smCSF*. 
+What began as a hobby soon grew into a deliberate focus on developing open visualization tools. In 2024, I released [**smplot2**](pubs/ampps2024.pdf) on [__CRAN__](https://cran.r-project.org/web/packages/smplot2/index.html), which expanded beyond plotting wrappers by introducing a solution that handles list of `ggplot2` objects into a composite figure. 
+
+Lately, I've been focused on [__ggsem__](https://smin95.github.io/ggsem/), an R package for interactive, parameter-aware visualization of structural equation and network models. It's designed to support reproducible, multi-group and cross-paradigm comparisons in a visual workflow.
+
+Outside of software development, I conduct empirical research on human spatial vision, with a particular emphasis on [**binocular visual processing**](pubs/min2025.pdf) in typical and clinical populations. 
+
+In both endeavors, my goal is the same: to provide new tools and perspectives that help us see our world, and our data, more clearly.
 
 ### Employment 
 
@@ -36,14 +42,6 @@ Technology of the People's Republic of China (Jan 2022 - Dec 2023).
 PhD, Computational Neuroscience, Department of Ophthalmology and Visual Sciences, Quebec, McGill University (2017 - 2021). 
 
 Bachelors of Science, Anatomy and Cell Biology, McGill University, Quebec, Canada (2013-2017). Top 10% cGPA in the faculty. 
-
-### Notable awards
-
-Frederick Banting and Charles Best Canada Graduate Scholarships Doctoral Award,  (2020-2021), Canadian Institutes of Health Research.
-
-Masters Training Scholarship (2019-2020), Fonds de researche du Quebec-Sante, Canada.
-
-Masters Graduate Scholarship (2018-2019), Natural Sciences and Engineering Research Council (NSERC), Canada.
 
 ### Programming
 

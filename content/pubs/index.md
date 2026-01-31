@@ -13,7 +13,7 @@ title: Publications
 
 **R Packages:**
 
-2 - **smCSF**: Analyze and Visualize Contrast Sensitivity Data with the Grammar of Graphics Interface. [__Link__](https://smin95.github.io/dataviz/).
+2 - **ggsem**: Reproducible Visualization of SEM and Related Models in R. [__Link__](https://smin95.github.io/ggsem/) [__CRAN__](https://cran.r-project.org/web/packages/ggsem/index.html).
 
 1 - **smplot2**: Creating Standalone and Composite Plots in 'ggplot2' for Publications. [__Link__](https://smin95.github.io/dataviz/) [__CRAN__](https://cran.r-project.org/web/packages/smplot2/index.html). 
 
