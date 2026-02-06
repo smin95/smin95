@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ggsem_examples</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="ggsem_examples_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ggsem_examples_files/libs/quarto-html/quarto.js"></script>
+<script src="ggsem_examples_files/libs/quarto-html/popper.min.js"></script>
+<script src="ggsem_examples_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="ggsem_examples_files/libs/quarto-html/anchor.min.js"></script>
+<link href="ggsem_examples_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ggsem_examples_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="ggsem_examples_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="ggsem_examples_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="ggsem_examples_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#ggsem-tutorial-step-by-step-procedures-for-examples-1-3" id="toc-ggsem-tutorial-step-by-step-procedures-for-examples-1-3" class="nav-link active" data-scroll-target="#ggsem-tutorial-step-by-step-procedures-for-examples-1-3"><code>ggsem</code> Tutorial Step-by-Step Procedures for Examples 1-3</a>
+  <ul class="collapse">
+  <li><a href="#example-1-multi-group-sem-visualization" id="toc-example-1-multi-group-sem-visualization" class="nav-link" data-scroll-target="#example-1-multi-group-sem-visualization">Example #1: Multi-Group SEM Visualization</a></li>
+  <li><a href="#example-2-overlaid-comparison" id="toc-example-2-overlaid-comparison" class="nav-link" data-scroll-target="#example-2-overlaid-comparison">Example #2: Overlaid Comparison</a></li>
+  <li><a href="#example-3-multi-paradigm-visualization" id="toc-example-3-multi-paradigm-visualization" class="nav-link" data-scroll-target="#example-3-multi-paradigm-visualization">Example #3: Multi-Paradigm Visualization</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="ggsem-tutorial-step-by-step-procedures-for-examples-1-3" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="ggsem-tutorial-step-by-step-procedures-for-examples-1-3"><code>ggsem</code> Tutorial Step-by-Step Procedures for Examples 1-3</h2>
+<p><em>Supplementary GUI walkthroughs for the paper “Reproducible Visual Exploration and Comparison of Structural Models: A</em> <em>Parameter-Centric Workflow in R”</em></p>
+<section id="example-1-multi-group-sem-visualization" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="example-1-multi-group-sem-visualization">Example #1: Multi-Group SEM Visualization</h3>
+<p>This reproduces Figure 4: side-by-side multi-group SEM with invariant (purple) vs.&nbsp;group-specific (brown) paths highlighted.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex1.1.png" class="img-fluid figure-img" width="1046"></p>
+<figcaption>Figure S1. Steps 1-4 of Example 1</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="step-1-load-data-test-invariance" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-1-load-data-test-invariance">Step 1: Load data &amp; test invariance</h4>
+<ol type="1">
+<li>Select <strong>SEM Diagram</strong> from Element Type</li>
+<li>In <strong>Data and Model Specifics</strong>: load <em>Holzinger &amp; Swineford</em> dataset</li>
+<li>Check <strong>Multi-Group Data</strong>, select grouping variable <code>school</code></li>
+<li>Activate <strong>Multi-Group Model Comparisons</strong>: results show metric invariance supported (p = .224)</li>
+</ol>
+</section>
+<section id="step-2-generate-first-group-diagram" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-2-generate-first-group-diagram">Step 2: Generate first group diagram</h4>
+<ol type="1">
+<li><strong>Group Level</strong>: <code>Pasteur</code></li>
+<li><strong>Invariance Level</strong>: <em>Metric</em></li>
+<li><strong>SEM Layout Settings</strong>: layout = <code>Tree2</code>, Center X = <code>-35</code></li>
+<li>Group label: <code>Pasteur (Metric)</code></li>
+<li>Click <strong>Draw a SEM</strong></li>
+</ol>
+</section>
+<section id="step-3-add-second-group" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-3-add-second-group">Step 3: Add second group</h4>
+<ol type="1">
+<li><strong>Group Level</strong>: <code>Grant-White</code></li>
+<li>Center X = <code>+35</code></li>
+<li>Group label: <code>Grant-White (Metric)</code></li>
+<li>Click <strong>Draw a SEM</strong></li>
+</ol>
+</section>
+<section id="step-4-style-diagrams" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-4-style-diagrams">Step 4: Style diagrams</h4>
+<p><em>Pasteur diagram:</em></p>
+<ol type="1">
+<li>Select <code>Pasteur (Metric)</code> from <strong>Which Group to Modify</strong></li>
+<li><strong>SEM Statistics</strong>: enable <strong>Highlight Free/Fixed Paths (Per Group)</strong></li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+<p><em>Grant-White diagram:</em></p>
+<ol type="1">
+<li>Select <code>Grant-White (Metric)</code></li>
+<li>Enable <strong>Highlight Multi-Group Invariance</strong></li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex1.2.png" class="img-fluid figure-img" width="1093"></p>
+<figcaption>Figure S2. Step 5 of Example 1</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step-5-final-adjustments" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-5-final-adjustments">Step 5: Final adjustments</h4>
+<ol type="1">
+<li><strong>Loop Arrows Settings</strong>: enable <strong>Show Residual Variances</strong>, hide residuals for <code>x1-x9</code></li>
+<li>For <code>textual</code> node: set <strong>Loop Arrow Location</strong> to <code>225°</code> (Grant-White), <code>315°</code> (Pasteur)</li>
+<li><strong>Global Settings</strong> for <strong>All Nodes</strong>: choose a color palette <strong>Vibrant Primary</strong> for Pasteur (Metric), and color palette <strong>Pastel Soft</strong> for Grant-White (Metric). Click <strong>Update Color Values</strong>, and then <strong>Apply Changes</strong>.</li>
+<li><strong>Aesthetic Grouping</strong>: enable <strong>Show Group Labels</strong>, Label Offset = <code>7</code></li>
+</ol>
+</section>
+<section id="step-6-save-metadata" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-6-save-metadata">Step 6: Save metadata</h4>
+<ol type="1">
+<li>First, click <strong>Capture Complete Workflow</strong>, this takes a screenshot of the session’s metadata.</li>
+<li>Then, click <strong>Download Complete Workflow</strong>. The metadata file can then be uploaded in future separate sessions or be used to generate a final <code>ggplot2</code> object.</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example1.png" class="img-fluid figure-img" width="2736"></p>
+<figcaption>Figure S3. Example 1 final figure</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="example-2-overlaid-comparison" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="example-2-overlaid-comparison">Example #2: Overlaid Comparison</h3>
+<p>This reproduces Figure 5B: overlaid comparison with dual-parameter labels (e.g., 0.85 | 0.82).</p>
+<section id="step-1-prepare-model-layout" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-1-prepare-model-layout">Step 1: Prepare model &amp; layout</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidySEM)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>fit <span class="ot">&lt;-</span> <span class="fu">sem</span>(model_syntax, <span class="at">data =</span> HolzingerSwineford1939, </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>           <span class="at">group =</span> <span class="st">'school'</span>, <span class="at">group.equal =</span> <span class="st">"loadings"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>lay <span class="ot">&lt;-</span> <span class="fu">get_layout</span>(<span class="st">"visual"</span>, <span class="st">""</span>, <span class="st">""</span>, <span class="st">""</span>, <span class="st">"textual"</span>, <span class="st">""</span>, <span class="st">"speed"</span>, <span class="st">""</span>, <span class="st">""</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>                  <span class="st">"x1"</span>, <span class="st">"x2"</span>, <span class="st">"x3"</span>, <span class="st">"x4"</span>, <span class="st">"x5"</span>, <span class="st">"x6"</span>, <span class="st">"x7"</span>, <span class="st">"x8"</span>, <span class="st">"x9"</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>                  <span class="at">rows =</span> <span class="dv">2</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>tidysem_object <span class="ot">&lt;-</span> <span class="fu">prepare_graph</span>(<span class="at">model =</span> fit, <span class="at">layout =</span> lay)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(tidysem_object)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step-2-import-into-ggsem" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-2-import-into-ggsem">Step 2: Import into ggsem</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>(<span class="at">type =</span> <span class="st">"sem"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="st">'Pasteur (Metric)'</span>, </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit, </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> tidysem_object, </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="dv">20</span>, </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">level =</span> <span class="st">'Pasteur'</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="st">'Grant-White (Metric)'</span>, </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit, </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> tidysem_object, </span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="sc">-</span><span class="dv">20</span>, </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">level =</span> <span class="st">'Grant-White'</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex2.2.png" class="img-fluid figure-img" width="1062"></p>
+<figcaption>Figure S4. Steps 3-4 of Example 2</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step-3-create-overlaid-diagram" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-3-create-overlaid-diagram">Step 3: Create overlaid diagram</h4>
+<ol type="1">
+<li><strong>SEM Layout Settings</strong>: check <strong>Multi-Group SEM Combine</strong></li>
+<li><strong>Label format</strong>: <strong>Separate Label with ‘|’</strong></li>
+<li><strong>Group 1</strong> = <code>Pasteur (Metric)</code>, <strong>Group 2</strong> = <code>Grant-White (Metric)</code></li>
+<li><strong>Width X</strong> = <code>40</code>, <strong>Center Y</strong> = <code>0</code></li>
+<li>Click <strong>Combine Multiple SEMs</strong></li>
+</ol>
+</section>
+<section id="step-4-fine-tune-layout" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-4-fine-tune-layout">Step 4: Fine-tune layout</h4>
+<ol type="1">
+<li><strong>Edge Labels XY Positions</strong>: select <code>visual→x1</code>, <code>textual→x5</code>, <code>speed→x7</code>, Shift Y = <code>0.5</code></li>
+<li><strong>Edges Curvature</strong>: select <code>visual–textual</code>, Curvature Size = <code>0.15</code></li>
+<li>Shift <code>visual→x1</code>, <code>textual→x4</code>, <code>speed→x7</code> labels left: Shift X = <code>-3</code></li>
+<li><strong>Node Settings</strong>: select <em>Earth Tones</em> palette, click <strong>Update Color Values</strong></li>
+<li>Click <strong>Apply Changes</strong> after each</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex2.3.png" class="img-fluid figure-img" width="736"></p>
+<figcaption>Figure S5. Steps 5-6 of Example 2</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step-5-add-statistical-overlays" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-5-add-statistical-overlays">Step 5: Add statistical overlays</h4>
+<ol type="1">
+<li><strong>Loop Arrow Settings</strong>: enable <strong>Show Residual Variances</strong></li>
+<li><strong>SEM Statistics</strong>: enable <strong>Highlight Group Differences</strong> (Wald tests)</li>
+<li>Enable <strong>Show Statistics</strong></li>
+<li>Adjust significance threshold α as needed</li>
+</ol>
+</section>
+<section id="step-6-finalize" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-6-finalize">Step 6: Finalize</h4>
+<ol type="1">
+<li><strong>Aesthetic Grouping</strong>: enable <strong>Show Group Labels</strong></li>
+<li>Click <strong>Capture Complete Workflow</strong> to save metadata</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example2.png" class="img-fluid figure-img" width="2680"></p>
+<figcaption>Figure S6. Final figure output of Example 2</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="example-3-multi-paradigm-visualization" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="example-3-multi-paradigm-visualization">Example #3: Multi-Paradigm Visualization</h3>
+<p>This reproduces Figure 8C: cross-paradigm comparison with network-derived colors.</p>
+<section id="preparation" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="preparation">Preparation:</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(blavaan)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(semPlot)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qgraph)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>HS_pasteur <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Pasteur"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>HS_pasteur_vars <span class="ot">&lt;-</span> HS_pasteur[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>fit_freq <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>fit_bayes <span class="ot">&lt;-</span> <span class="fu">bcfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars, </span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>                  <span class="at">n.chains =</span> <span class="dv">2</span>, <span class="at">burnin =</span> <span class="dv">500</span>, <span class="at">sample =</span> <span class="dv">1000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+SAMPLING FOR MODEL 'stanmarg' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 0.000268 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 2.68 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 1500 [  0%]  (Warmup)
+Chain 1: Iteration:  150 / 1500 [ 10%]  (Warmup)
+Chain 1: Iteration:  300 / 1500 [ 20%]  (Warmup)
+Chain 1: Iteration:  450 / 1500 [ 30%]  (Warmup)
+Chain 1: Iteration:  501 / 1500 [ 33%]  (Sampling)
+Chain 1: Iteration:  650 / 1500 [ 43%]  (Sampling)
+Chain 1: Iteration:  800 / 1500 [ 53%]  (Sampling)
+Chain 1: Iteration:  950 / 1500 [ 63%]  (Sampling)
+Chain 1: Iteration: 1100 / 1500 [ 73%]  (Sampling)
+Chain 1: Iteration: 1250 / 1500 [ 83%]  (Sampling)
+Chain 1: Iteration: 1400 / 1500 [ 93%]  (Sampling)
+Chain 1: Iteration: 1500 / 1500 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 1.601 seconds (Warm-up)
+Chain 1:                3.223 seconds (Sampling)
+Chain 1:                4.824 seconds (Total)
+Chain 1: 
+
+SAMPLING FOR MODEL 'stanmarg' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 0.000142 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.42 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 1500 [  0%]  (Warmup)
+Chain 2: Iteration:  150 / 1500 [ 10%]  (Warmup)
+Chain 2: Iteration:  300 / 1500 [ 20%]  (Warmup)
+Chain 2: Iteration:  450 / 1500 [ 30%]  (Warmup)
+Chain 2: Iteration:  501 / 1500 [ 33%]  (Sampling)
+Chain 2: Iteration:  650 / 1500 [ 43%]  (Sampling)
+Chain 2: Iteration:  800 / 1500 [ 53%]  (Sampling)
+Chain 2: Iteration:  950 / 1500 [ 63%]  (Sampling)
+Chain 2: Iteration: 1100 / 1500 [ 73%]  (Sampling)
+Chain 2: Iteration: 1250 / 1500 [ 83%]  (Sampling)
+Chain 2: Iteration: 1400 / 1500 [ 93%]  (Sampling)
+Chain 2: Iteration: 1500 / 1500 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 1.186 seconds (Warm-up)
+Chain 2:                2.19 seconds (Sampling)
+Chain 2:                3.376 seconds (Total)
+Chain 2: </code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Computing post-estimation metrics (including lvs if requested)...</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">semPaths</span>(fit_freq, <span class="at">what =</span> <span class="st">"est"</span>, <span class="at">style =</span> <span class="st">"lisrel"</span>,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>         <span class="at">whatLabels =</span> <span class="st">"est"</span>, <span class="at">layout =</span> <span class="st">'tree2'</span>) <span class="ot">-&gt;</span> freq_p</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">semPaths</span>(fit_bayes, <span class="at">what =</span> <span class="st">"est"</span>, <span class="at">style =</span> <span class="st">"lisrel"</span>,</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>         <span class="at">whatLabels =</span> <span class="st">"est"</span>, <span class="at">layout =</span> <span class="st">'tree2'</span>) <span class="ot">-&gt;</span> bayes_p</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-9-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>cor_matrix <span class="ot">&lt;-</span> <span class="fu">cor</span>(HS_pasteur_vars, <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>net_cognitive <span class="ot">&lt;-</span> <span class="fu">qgraph</span>(cor_matrix, <span class="at">graph =</span> <span class="st">"pcor"</span>, </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>                        <span class="at">layout =</span> <span class="st">"spring"</span>, <span class="at">minimum =</span> <span class="fl">0.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-9-3.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex3.1.png" class="img-fluid figure-img" width="1041"></p>
+<figcaption>Figure S7. Steps 1-3 of Example 3</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>() <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Frequentist SEM"</span>,</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> freq_p,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_freq,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">50</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Bayesian SEM"</span>,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> bayes_p,</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_bayes,</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Network Analysis"</span>,</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> net_cognitive,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"network"</span>,</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">50</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="step-1-reference-network-clustering" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-1-reference-network-clustering">Step 1: Reference network clustering</h4>
+<ol type="1">
+<li><strong>Element Type</strong>: Network Diagram</li>
+<li><strong>Which Group to Modify</strong>: <code>Network Analysis</code></li>
+<li><strong>Node Settings → Global Settings</strong>: check <strong>Apply Global Nodes Aesthetics (qgraph)</strong>, and check <strong>Enable Clustering</strong></li>
+<li><strong>Clustering Method</strong> = <code>Louvain (undirected)</code>, palette = <code>Pastel 2</code></li>
+<li><strong>Node Shape</strong> = <code>square</code>, <strong>Node Size</strong> = <code>12</code></li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+</section>
+<section id="step-2-align-sem-layouts" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-2-align-sem-layouts">Step 2: Align SEM layouts</h4>
+<p><strong>Frequentist SEM:</strong></p>
+<ol type="1">
+<li><strong>Element Type</strong>: SEM Diagram</li>
+<li><strong>Which Group to Modify</strong>: <code>Frequentist (SEM)</code></li>
+<li><strong>SEM Layout Settings</strong>: layout = <code>spring</code>, enable <strong>Flip SEM Layout</strong>, Rotate = <code>75°</code></li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+<p><strong>Bayesian SEM:</strong> Repeat same settings for <code>Bayesian (SEM)</code></p>
+</section>
+<section id="step-3-propagate-network-colors-to-sems" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-3-propagate-network-colors-to-sems">Step 3: Propagate network colors to SEMs</h4>
+<ol type="1">
+<li><strong>Node Settings → Parameter-Specific Modifications</strong></li>
+<li>Set <strong>Node Color</strong> to corresponding cluster color from network:
+<ul>
+<li>Cluster 1: <code>x1</code>, <code>x2</code>, <code>x3</code> (node color = <code>#B3E2CD</code>)<br>
+</li>
+<li>Cluster 2: <code>x4</code>, <code>x5</code>, <code>x6</code> (node color = <code>#FDCDAC</code>)<br>
+</li>
+<li>Cluster 3: <code>x7</code>, <code>x8</code>, <code>x9</code> (cluster 3 = <code>#CBD5E8</code>)</li>
+</ul></li>
+<li><strong>Node Shape</strong> = <code>square</code>, <strong>Node Size</strong> = <code>12</code> for the observed variables <code>x1</code>-<code>x9</code></li>
+<li>Change the color of <strong>Node Labels</strong> of observed variables to black (<code>#000000</code>) for legibility under <strong>Annotation Settings</strong> and <strong>Global Settings</strong></li>
+<li>Latent variable nodes can also be colored: <code>speed</code> (<code>#6889CC</code>), <code>textual</code> (<code>#DBA567</code>), <code>visual</code> (<code>#68C7A6</code>)</li>
+<li>Click <strong>Apply Changes</strong> (repeat for both SEM groups)</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex3.2.png" class="img-fluid figure-img" width="1112"></p>
+<figcaption>Figure S8. Steps 4-5 of Example 3</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="step-4-add-fit-indices" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-4-add-fit-indices">Step 4: Add fit indices</h4>
+<ol type="1">
+<li><strong>SEM Statistics</strong>: enable <strong>Display Fit Indices</strong> under <strong>Model Evaluation</strong></li>
+<li>Set positions for each group:
+<ul>
+<li>Frequentist SEM: X = <code>-51</code>, Y = <code>-31</code></li>
+<li>Bayesian SEM: X = <code>0</code>, Y = <code>-30</code></li>
+<li>Network: X = <code>51</code>, Y = <code>-31</code></li>
+</ul></li>
+<li>Click <strong>Add Fit Stats to Canvas</strong> for each group.</li>
+</ol>
+<p><strong>Step 5: Visually tag the path between <code>speed</code> and <code>x9</code> nodes</strong></p>
+<ol type="1">
+<li>Expand Edge Settings for each group of SEM.</li>
+<li>Choose <code>speed to x9</code> in <strong>Edge(s) to Modify</strong>.</li>
+<li>Set color to <code>#8395C3</code>, and click <strong>Apply Changes</strong>.</li>
+</ol>
+</section>
+<section id="step-6-add-titles" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-6-add-titles">Step 6: Add titles</h4>
+<ol type="1">
+<li>Set <strong>Element Type</strong> as <strong>Aesthetic Grouping</strong></li>
+<li>Click <strong>Group Label Edit</strong> and enable <strong>Show Group Labels</strong>: Label Offset = <code>5</code></li>
+<li>Click <strong>Show Group Labels</strong></li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example3_final.png" class="img-fluid figure-img" width="2580"></p>
+<figcaption>Figure S9. Steps 4-5 of Example 3</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="optional-step-6-generating-the-fit-indices-figure" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="optional-step-6-generating-the-fit-indices-figure">(Optional) Step 6: Generating the Fit Indices Figure</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>HS_pasteur <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Pasteur"</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>HS_pasteur_vars <span class="ot">&lt;-</span> HS_pasteur[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>fit_freq <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>model_syntax2 <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="st">  x1 ~~ x4</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="st">  x4 ~~ x7</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>fit_freq2 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax2, <span class="at">data =</span> HS_pasteur_vars)</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="fu">semPaths</span>(fit_freq2, <span class="at">what =</span> <span class="st">"est"</span>,  <span class="at">style =</span> <span class="st">"lisrel"</span>,</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>         <span class="at">whatLabels =</span> <span class="st">"est"</span>, <span class="at">layout =</span> <span class="st">'tree2'</span>) <span class="ot">-&gt;</span> freq_p2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Launch ggsem app</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>() <span class="sc">|&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Frequentist SEM"</span>,</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> freq_p,</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_freq,</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">25</span>) <span class="sc">|&gt;</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Frequentist SEM2"</span>,</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> freq_p2,</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_freq2,</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">25</span>) <span class="sc">|&gt;</span></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example3b_final.png" class="img-fluid figure-img" width="1660"></p>
+<figcaption>Figure S10. The example showing improved fit indices after model modification</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

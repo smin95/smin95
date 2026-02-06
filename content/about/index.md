@@ -12,11 +12,9 @@ title: About
 toc: no
 ---
 
-I started in the life sciences, but became fascinated with data visualization during my PhD. I worked through several tools-starting in MATLAB, moving to Python (matplotlib/seaborn), and finally landing in R with ggplot2. After defending my PhD, I packaged the custom plotting functions I had built into [**smplot**](pubs/smplot2021.pdf), my first R package. Looking back, it was essentially a set of Python-to-ggplot2 translations of my go-to plotting routines.
+I started in the life sciences, but became fascinated with data visualization during my PhD. I worked through several tools-starting in MATLAB, moving to Python (matplotlib/seaborn), and finally landing in R with ggplot2. After defending my PhD, I packaged the custom plotting functions I had built into [**smplot**](pubs/smplot2021.pdf), my first R package.
 
-What began as a hobby soon grew into a deliberate focus on developing open visualization tools. In 2024, I released [**smplot2**](pubs/ampps2024.pdf) on [__CRAN__](https://cran.r-project.org/web/packages/smplot2/index.html), which expanded beyond plotting wrappers by introducing a solution that handles list of `ggplot2` objects into a composite figure. 
-
-Lately, I've been focused on [__ggsem__](https://smin95.github.io/ggsem/), an R package for interactive, parameter-aware visualization of structural equation and network models. It's designed to support reproducible, multi-group and cross-paradigm comparisons in a visual workflow.
+What began as a hobby soon grew into a deliberate focus on developing open visualization tools. In 2024, I released [**smplot2**](pubs/ampps2024.pdf) on [__CRAN__](https://cran.r-project.org/web/packages/smplot2/index.html), which expanded beyond plotting wrappers by introducing a solution that handles list of `ggplot2` objects into a composite figure. Lately, I've been focused on [__ggsem__](https://smin95.github.io/ggsem/), an R package for interactive, parameter-aware visualization of structural equation and network models.
 
 Outside of software development, I conduct empirical research on human spatial vision, with a particular emphasis on [**binocular visual processing**](pubs/min2025.pdf) in typical and clinical populations. 
 
