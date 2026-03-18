@@ -19,7 +19,7 @@ title: Publications
 
 **Peer-reviewed Publications:** 
 
-31 - **Seung Hyun Min**, Alexandre Reynaud. Individual differences reveal distinct age-related reorganizations in spatial channels for luminance and texture processing (2026). ***npj Aging***. (in press)
+31 - **Seung Hyun Min**, Alexandre Reynaud. Individual differences reveal distinct age-related reorganizations in spatial channels for luminance and texture processing (in press). ***npj Aging***.
 
 30 - **Seung Hyun Min**. Ocular Dominance Plasticity: A Mini-Review (2025). ***Eye and Brain***. 2025;17:37-48 [**pdf**](pubs/min2025.pdf)
 
