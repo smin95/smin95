@@ -79,10 +79,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ggsem-tutorial-step-by-step-procedures-for-examples-1-3" id="toc-ggsem-tutorial-step-by-step-procedures-for-examples-1-3" class="nav-link active" data-scroll-target="#ggsem-tutorial-step-by-step-procedures-for-examples-1-3"><code>ggsem</code> Tutorial Step-by-Step Procedures for Examples 1-3</a>
+  <li><a href="#ggsem-step-by-step-procedures-for-use-cases-1-3" id="toc-ggsem-step-by-step-procedures-for-use-cases-1-3" class="nav-link active" data-scroll-target="#ggsem-step-by-step-procedures-for-use-cases-1-3"><code>ggsem</code> Step-by-Step Procedures for Use Cases #1-3</a>
   <ul class="collapse">
-  <li><a href="#example-1-multi-group-sem-visualization" id="toc-example-1-multi-group-sem-visualization" class="nav-link" data-scroll-target="#example-1-multi-group-sem-visualization">Example #1: Multi-Group SEM Visualization</a></li>
-  <li><a href="#example-2-overlaid-comparison" id="toc-example-2-overlaid-comparison" class="nav-link" data-scroll-target="#example-2-overlaid-comparison">Example #2: Overlaid Comparison</a></li>
+  <li><a href="#case-1-multi-group-sem-visualization" id="toc-case-1-multi-group-sem-visualization" class="nav-link" data-scroll-target="#case-1-multi-group-sem-visualization">Case #1: Multi-Group SEM Visualization</a></li>
+  <li><a href="#case-2-overlaid-comparison" id="toc-case-2-overlaid-comparison" class="nav-link" data-scroll-target="#case-2-overlaid-comparison">Case #2: Overlaid Comparison</a></li>
   <li><a href="#example-3-multi-paradigm-visualization" id="toc-example-3-multi-paradigm-visualization" class="nav-link" data-scroll-target="#example-3-multi-paradigm-visualization">Example #3: Multi-Paradigm Visualization</a></li>
   </ul></li>
   </ul>
@@ -93,12 +93,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="ggsem-tutorial-step-by-step-procedures-for-examples-1-3" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="ggsem-tutorial-step-by-step-procedures-for-examples-1-3"><code>ggsem</code> Tutorial Step-by-Step Procedures for Examples 1-3</h2>
-<p><em>Supplementary GUI walkthroughs for the paper “Reproducible Visual Exploration and Comparison of Structural Models: A</em> <em>Parameter-Centric Workflow in R”</em></p>
-<section id="example-1-multi-group-sem-visualization" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="example-1-multi-group-sem-visualization">Example #1: Multi-Group SEM Visualization</h3>
-<p>This reproduces Figure 4: side-by-side multi-group SEM with invariant (purple) vs.&nbsp;group-specific (brown) paths highlighted.</p>
+<section id="ggsem-step-by-step-procedures-for-use-cases-1-3" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="ggsem-step-by-step-procedures-for-use-cases-1-3"><code>ggsem</code> Step-by-Step Procedures for Use Cases #1-3</h2>
+<p><em>Supplementary GUI walkthroughs for the paper “ggsem:</em> A Parameter-Centric Workflow for Reproducible Visual Exploration and Comparison of Structural Models in R<em>“</em></p>
+<section id="case-1-multi-group-sem-visualization" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="case-1-multi-group-sem-visualization">Case #1: Multi-Group SEM Visualization</h3>
+<p>The metadata file below can be used to regenerate Figure 2B.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem</span>(<span class="at">metadata =</span> <span class="st">"https://www.smin95.com/example1.rds"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Readers can also follow the steps to reproduce Figure 2B: side-by-side multi-group SEM with invariant (purple) vs.&nbsp;group-specific (brown) paths highlighted.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -181,7 +185,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="example1.png" class="img-fluid figure-img" width="2736"></p>
+<p><img src="example1.png" class="img-fluid figure-img" width="2696"></p>
 <figcaption>Figure S3. Example 1 final figure</figcaption>
 </figure>
 </div>
@@ -189,35 +193,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section>
 </section>
-<section id="example-2-overlaid-comparison" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="example-2-overlaid-comparison">Example #2: Overlaid Comparison</h3>
-<p>This reproduces Figure 5B: overlaid comparison with dual-parameter labels (e.g., 0.85 | 0.82).</p>
+<section id="case-2-overlaid-comparison" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="case-2-overlaid-comparison">Case #2: Overlaid Comparison</h3>
+<p>Metadata file can be open by launching the application using code below to regenerate Figure 3C:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem</span>(<span class="at">metadata =</span> <span class="st">"https://www.smin95.com/example2.rds"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>These steps show how to reproduce Figure 3C: overlaid comparison with dual-parameter labels (e.g., 0.85 | 0.82).</p>
 <section id="step-1-prepare-model-layout" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="step-1-prepare-model-layout">Step 1: Prepare model &amp; layout</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidySEM)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>fit <span class="ot">&lt;-</span> <span class="fu">sem</span>(model_syntax, <span class="at">data =</span> HolzingerSwineford1939, </span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>           <span class="at">group =</span> <span class="st">'school'</span>, <span class="at">group.equal =</span> <span class="st">"loadings"</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>lay <span class="ot">&lt;-</span> <span class="fu">get_layout</span>(<span class="st">"visual"</span>, <span class="st">""</span>, <span class="st">""</span>, <span class="st">""</span>, <span class="st">"textual"</span>, <span class="st">""</span>, <span class="st">"speed"</span>, <span class="st">""</span>, <span class="st">""</span>,</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>                  <span class="st">"x1"</span>, <span class="st">"x2"</span>, <span class="st">"x3"</span>, <span class="st">"x4"</span>, <span class="st">"x5"</span>, <span class="st">"x6"</span>, <span class="st">"x7"</span>, <span class="st">"x8"</span>, <span class="st">"x9"</span>,</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>                  <span class="at">rows =</span> <span class="dv">2</span>)</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>tidysem_object <span class="ot">&lt;-</span> <span class="fu">prepare_graph</span>(<span class="at">model =</span> fit, <span class="at">layout =</span> lay)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(tidysem_object)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidySEM)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>fit <span class="ot">&lt;-</span> <span class="fu">sem</span>(model_syntax, <span class="at">data =</span> HolzingerSwineford1939, </span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>           <span class="at">group =</span> <span class="st">'school'</span>, <span class="at">group.equal =</span> <span class="st">"loadings"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>lay <span class="ot">&lt;-</span> <span class="fu">get_layout</span>(<span class="st">"visual"</span>, <span class="st">""</span>, <span class="st">""</span>, <span class="st">""</span>, <span class="st">"textual"</span>, <span class="st">""</span>, <span class="st">"speed"</span>, <span class="st">""</span>, <span class="st">""</span>,</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>                  <span class="st">"x1"</span>, <span class="st">"x2"</span>, <span class="st">"x3"</span>, <span class="st">"x4"</span>, <span class="st">"x5"</span>, <span class="st">"x6"</span>, <span class="st">"x7"</span>, <span class="st">"x8"</span>, <span class="st">"x9"</span>,</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>                  <span class="at">rows =</span> <span class="dv">2</span>)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>tidysem_object <span class="ot">&lt;-</span> <span class="fu">prepare_graph</span>(<span class="at">model =</span> fit, <span class="at">layout =</span> lay)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(tidysem_object)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -226,18 +234,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="step-2-import-into-ggsem" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="step-2-import-into-ggsem">Step 2: Import into ggsem</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>(<span class="at">type =</span> <span class="st">"sem"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="st">'Pasteur (Metric)'</span>, </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit, </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> tidysem_object, </span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="dv">20</span>, </span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">level =</span> <span class="st">'Pasteur'</span>) <span class="sc">|&gt;</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="st">'Grant-White (Metric)'</span>, </span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit, </span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> tidysem_object, </span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="sc">-</span><span class="dv">20</span>, </span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">level =</span> <span class="st">'Grant-White'</span>) <span class="sc">|&gt;</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>(<span class="at">type =</span> <span class="st">"sem"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="st">'Pasteur (Metric)'</span>, </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit, </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> tidysem_object, </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="dv">20</span>, </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">level =</span> <span class="st">'Pasteur'</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="st">'Grant-White (Metric)'</span>, </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit, </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> tidysem_object, </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="sc">-</span><span class="dv">20</span>, </span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">level =</span> <span class="st">'Grant-White'</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -299,7 +307,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="example2.png" class="img-fluid figure-img" width="2680"></p>
+<p><img src="example2.png" class="img-fluid figure-img" width="3216"></p>
 <figcaption>Figure S6. Final figure output of Example 2</figcaption>
 </figure>
 </div>
@@ -309,112 +317,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="example-3-multi-paradigm-visualization" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="example-3-multi-paradigm-visualization">Example #3: Multi-Paradigm Visualization</h3>
-<p>This reproduces Figure 8C: cross-paradigm comparison with network-derived colors.</p>
+<p>The metadata file can be loaded to regenerate Figure 4C using code below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem</span>(<span class="at">metadata =</span> <span class="st">"https://www.smin95.com/example3.rds"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>These steps show how to reproduce Figure 4C: cross-paradigm comparison with network-derived colors.</p>
 <section id="preparation" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="preparation">Preparation:</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(blavaan)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(semPlot)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qgraph)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>HS_pasteur <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Pasteur"</span>)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>HS_pasteur_vars <span class="ot">&lt;-</span> HS_pasteur[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>fit_freq <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars)</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>fit_bayes <span class="ot">&lt;-</span> <span class="fu">bcfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars, </span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>                  <span class="at">n.chains =</span> <span class="dv">2</span>, <span class="at">burnin =</span> <span class="dv">500</span>, <span class="at">sample =</span> <span class="dv">1000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-SAMPLING FOR MODEL 'stanmarg' NOW (CHAIN 1).
-Chain 1: 
-Chain 1: Gradient evaluation took 0.00025 seconds
-Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 2.5 seconds.
-Chain 1: Adjust your expectations accordingly!
-Chain 1: 
-Chain 1: 
-Chain 1: Iteration:    1 / 1500 [  0%]  (Warmup)
-Chain 1: Iteration:  150 / 1500 [ 10%]  (Warmup)
-Chain 1: Iteration:  300 / 1500 [ 20%]  (Warmup)
-Chain 1: Iteration:  450 / 1500 [ 30%]  (Warmup)
-Chain 1: Iteration:  501 / 1500 [ 33%]  (Sampling)
-Chain 1: Iteration:  650 / 1500 [ 43%]  (Sampling)
-Chain 1: Iteration:  800 / 1500 [ 53%]  (Sampling)
-Chain 1: Iteration:  950 / 1500 [ 63%]  (Sampling)
-Chain 1: Iteration: 1100 / 1500 [ 73%]  (Sampling)
-Chain 1: Iteration: 1250 / 1500 [ 83%]  (Sampling)
-Chain 1: Iteration: 1400 / 1500 [ 93%]  (Sampling)
-Chain 1: Iteration: 1500 / 1500 [100%]  (Sampling)
-Chain 1: 
-Chain 1:  Elapsed Time: 1.118 seconds (Warm-up)
-Chain 1:                1.977 seconds (Sampling)
-Chain 1:                3.095 seconds (Total)
-Chain 1: 
-
-SAMPLING FOR MODEL 'stanmarg' NOW (CHAIN 2).
-Chain 2: 
-Chain 2: Gradient evaluation took 0.000133 seconds
-Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 1.33 seconds.
-Chain 2: Adjust your expectations accordingly!
-Chain 2: 
-Chain 2: 
-Chain 2: Iteration:    1 / 1500 [  0%]  (Warmup)
-Chain 2: Iteration:  150 / 1500 [ 10%]  (Warmup)
-Chain 2: Iteration:  300 / 1500 [ 20%]  (Warmup)
-Chain 2: Iteration:  450 / 1500 [ 30%]  (Warmup)
-Chain 2: Iteration:  501 / 1500 [ 33%]  (Sampling)
-Chain 2: Iteration:  650 / 1500 [ 43%]  (Sampling)
-Chain 2: Iteration:  800 / 1500 [ 53%]  (Sampling)
-Chain 2: Iteration:  950 / 1500 [ 63%]  (Sampling)
-Chain 2: Iteration: 1100 / 1500 [ 73%]  (Sampling)
-Chain 2: Iteration: 1250 / 1500 [ 83%]  (Sampling)
-Chain 2: Iteration: 1400 / 1500 [ 93%]  (Sampling)
-Chain 2: Iteration: 1500 / 1500 [100%]  (Sampling)
-Chain 2: 
-Chain 2:  Elapsed Time: 1.537 seconds (Warm-up)
-Chain 2:                2.929 seconds (Sampling)
-Chain 2:                4.466 seconds (Total)
-Chain 2: </code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Computing post-estimation metrics (including lvs if requested)...</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">semPaths</span>(fit_freq, <span class="at">what =</span> <span class="st">"est"</span>, <span class="at">style =</span> <span class="st">"lisrel"</span>,</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>         <span class="at">whatLabels =</span> <span class="st">"est"</span>, <span class="at">layout =</span> <span class="st">'tree2'</span>) <span class="ot">-&gt;</span> freq_p</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">semPaths</span>(fit_bayes, <span class="at">what =</span> <span class="st">"est"</span>, <span class="at">style =</span> <span class="st">"lisrel"</span>,</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>         <span class="at">whatLabels =</span> <span class="st">"est"</span>, <span class="at">layout =</span> <span class="st">'tree2'</span>) <span class="ot">-&gt;</span> bayes_p</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-9-2.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>cor_matrix <span class="ot">&lt;-</span> <span class="fu">cor</span>(HS_pasteur_vars, <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>net_cognitive <span class="ot">&lt;-</span> <span class="fu">qgraph</span>(cor_matrix, <span class="at">graph =</span> <span class="st">"pcor"</span>, </span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>                        <span class="at">layout =</span> <span class="st">"spring"</span>, <span class="at">minimum =</span> <span class="fl">0.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-9-3.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(blavaan)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(semPlot)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qgraph)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>HS_pasteur <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Pasteur"</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>HS_pasteur_vars <span class="ot">&lt;-</span> HS_pasteur[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>fit_freq <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars)</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>fit_bayes <span class="ot">&lt;-</span> <span class="fu">bcfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars, </span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>                  <span class="at">n.chains =</span> <span class="dv">2</span>, <span class="at">burnin =</span> <span class="dv">500</span>, <span class="at">sample =</span> <span class="dv">1000</span>)</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="fu">semPaths</span>(fit_freq, <span class="at">what =</span> <span class="st">"est"</span>, <span class="at">style =</span> <span class="st">"lisrel"</span>,</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>         <span class="at">whatLabels =</span> <span class="st">"est"</span>, <span class="at">layout =</span> <span class="st">'tree2'</span>) <span class="ot">-&gt;</span> freq_p</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="fu">semPaths</span>(fit_bayes, <span class="at">what =</span> <span class="st">"est"</span>, <span class="at">style =</span> <span class="st">"lisrel"</span>,</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>         <span class="at">whatLabels =</span> <span class="st">"est"</span>, <span class="at">layout =</span> <span class="st">'tree2'</span>) <span class="ot">-&gt;</span> bayes_p</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>cor_matrix <span class="ot">&lt;-</span> <span class="fu">cor</span>(HS_pasteur_vars, <span class="at">use =</span> <span class="st">"complete.obs"</span>)</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>net_cognitive <span class="ot">&lt;-</span> <span class="fu">qgraph</span>(cor_matrix, <span class="at">graph =</span> <span class="st">"pcor"</span>, </span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>                        <span class="at">layout =</span> <span class="st">"spring"</span>, <span class="at">minimum =</span> <span class="fl">0.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -427,25 +366,25 @@ Chain 2: </code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>() <span class="sc">|&gt;</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Frequentist SEM"</span>,</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> freq_p,</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_freq,</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">50</span>) <span class="sc">|&gt;</span></span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Bayesian SEM"</span>,</span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> bayes_p,</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_bayes,</span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
-<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Network Analysis"</span>,</span>
-<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> net_cognitive,</span>
-<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"network"</span>,</span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">50</span>) <span class="sc">|&gt;</span></span>
-<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>() <span class="sc">|&gt;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Frequentist SEM"</span>,</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> freq_p,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_freq,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">50</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Bayesian SEM"</span>,</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> bayes_p,</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_bayes,</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Network Analysis"</span>,</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> net_cognitive,</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"network"</span>,</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">50</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="step-1-reference-network-clustering" class="level4 unnumbered">
@@ -532,59 +471,59 @@ Chain 2: </code></pre>
 <section id="optional-step-6-multi-model-multi-sample-composite-visualization" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="optional-step-6-multi-model-multi-sample-composite-visualization">(Optional) Step 6: Multi-Model, Multi-Sample Composite Visualization</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>HS_pasteur <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Pasteur"</span>)</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>HS_pasteur_vars <span class="ot">&lt;-</span> HS_pasteur[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>HS_grantwhite <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Grant-White"</span>)</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>HS_grantwhite_vars <span class="ot">&lt;-</span> HS_grantwhite[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>fit_pasteur1 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars)</span>
-<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>fit_grantwhite1 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_grantwhite_vars)</span>
-<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>model_syntax2 <span class="ot">&lt;-</span> <span class="st">'</span></span>
-<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
-<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
-<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a><span class="st">  x1 ~~ x4</span></span>
-<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a><span class="st">  x4 ~~ x7</span></span>
-<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
-<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>fit_pasteur2 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax2, <span class="at">data =</span> HS_pasteur_vars)</span>
-<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>fit_grantwhite2 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax2, <span class="at">data =</span> HS_grantwhite_vars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>HS_pasteur <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Pasteur"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>HS_pasteur_vars <span class="ot">&lt;-</span> HS_pasteur[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>HS_grantwhite <span class="ot">&lt;-</span> <span class="fu">subset</span>(HolzingerSwineford1939, school <span class="sc">==</span> <span class="st">"Grant-White"</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>HS_grantwhite_vars <span class="ot">&lt;-</span> HS_grantwhite[, <span class="fu">paste0</span>(<span class="st">"x"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>)]</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>model_syntax <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>fit_pasteur1 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_pasteur_vars)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>fit_grantwhite1 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax, <span class="at">data =</span> HS_grantwhite_vars)</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>model_syntax2 <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a><span class="st">  visual  =~ x1 + x2 + x3</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="st">  textual =~ x4 + x5 + x6</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="st">  speed   =~ x7 + x8 + x9</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a><span class="st">  x1 ~~ x4</span></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="st">  x4 ~~ x7</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>fit_pasteur2 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax2, <span class="at">data =</span> HS_pasteur_vars)</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>fit_grantwhite2 <span class="ot">&lt;-</span> <span class="fu">cfa</span>(model_syntax2, <span class="at">data =</span> HS_grantwhite_vars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Launch ggsem app</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>() <span class="sc">|&gt;</span></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Pasteur (Original)"</span>,</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_pasteur1,</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">25</span>,</span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="sc">-</span><span class="dv">30</span>) <span class="sc">|&gt;</span></span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Pasteur (Modified)"</span>,</span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_pasteur2,</span>
-<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
-<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
-<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">25</span>,</span>
-<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="sc">-</span><span class="dv">30</span>) <span class="sc">|&gt;</span></span>
-<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Grant-White (Original)"</span>,</span>
-<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_grantwhite1,</span>
-<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
-<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
-<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">25</span>,</span>
-<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="dv">30</span>) <span class="sc">|&gt;</span></span>
-<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Grant-White (Modified)"</span>,</span>
-<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_grantwhite2,</span>
-<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
-<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
-<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">25</span>,</span>
-<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="dv">30</span>) <span class="sc">|&gt;</span></span>
-<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Launch ggsem app</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>() <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Pasteur (Original)"</span>,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_pasteur1,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">25</span>,</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="sc">-</span><span class="dv">30</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Pasteur (Modified)"</span>,</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_pasteur2,</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">25</span>,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="sc">-</span><span class="dv">30</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Grant-White (Original)"</span>,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_grantwhite1,</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">25</span>,</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="dv">30</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Grant-White (Modified)"</span>,</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> fit_grantwhite2,</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">20</span>, <span class="at">height =</span> <span class="dv">20</span>,</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">25</span>,</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="dv">30</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
