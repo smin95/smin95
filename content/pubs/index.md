@@ -19,6 +19,8 @@ title: Publications
 
 **Peer-reviewed Publications:** 
 
+33 - **Seung Hyun Min**, Rongjie Hu, Nan Jiang, Liying Zou, Xiaoxiao Wang, Jiawei Zhou. GABAergic Fluctuations Predict Mixed Perception During Binocular Rivalry (in press). ***NeuroImage***.
+
 32 -  Ling Gong\*, **Seung Hyun Min\***, Xiaoning Yu, Lixia Lou, Yidong Zhang, Zhaohui Sun, Xiajing Tang. Beyond Monocular Acuity: Resolving the Amblyopia Treatment Paradox with Mechanism-Targeted Outcomes and Modern Testing Methods (in press). ***Advances in Ophthalmology Practice and Research***. \*co-first authors
 
 31 - **Seung Hyun Min**, Alexandre Reynaud. Individual differences reveal distinct age-related reorganizations in spatial channels for luminance and texture processing (2026). ***npj Aging***, 12, 69. [**pdf**](pubs/min2026.pdf)

@@ -98,8 +98,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><em>Supplementary GUI walkthroughs for the paper “ggsem<em>: A Parameter-Linked Workflow for Reproducible Visual Refinement and Comparison of Structural Models in R</em>”</em></p>
 <p>First, install and load the package into memory:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">'ggsem'</span>) <span class="co"># version 1.0.0 on CRAN </span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies first</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"colourpicker"</span>, <span class="st">"DT"</span>, <span class="st">"DiagrammeR"</span>, <span class="st">"memoise"</span>, <span class="st">"shiny"</span>, <span class="st">"shinyjs"</span>, <span class="st">"svglite"</span>), <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Install ggsem</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">'ggsem'</span>) <span class="co"># version 1.0.0.1 on CRAN </span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggsem)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="case-1-multi-group-sem-visualization" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="case-1-multi-group-sem-visualization">Case #1: Multi-Group SEM Visualization</h3>
