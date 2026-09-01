@@ -19,7 +19,7 @@ title: Publications
 
 **Peer-reviewed Publications:** 
 
-33 - **Seung Hyun Min**, Rongjie Hu, Nan Jiang, Liying Zou, Xiaoxiao Wang, Jiawei Zhou. GABAergic Fluctuations Predict Mixed Perception During Binocular Rivalry (in press). ***NeuroImage***.
+33 - **Seung Hyun Min**, Rongjie Hu, Nan Jiang, Liying Zou, Xiaoxiao Wang, Jiawei Zhou. GABAergic Fluctuations Predict Mixed Perception During Binocular Rivalry (2026). ***NeuroImage***, 339, 122184. [**pdf**](pubs/gaba2026.pdf)
 
 32 -  Ling Gong\*, **Seung Hyun Min\***, Xiaoning Yu, Lixia Lou, Yidong Zhang, Zhaohui Sun, Xiajing Tang. Beyond Monocular Acuity: Resolving the Amblyopia Treatment Paradox with Mechanism-Targeted Outcomes and Modern Testing Methods (in press). ***Advances in Ophthalmology Practice and Research***. \*co-first authors
 
