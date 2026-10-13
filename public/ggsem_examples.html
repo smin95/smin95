@@ -79,11 +79,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ggsem-step-by-step-procedures-for-use-cases-1-3" id="toc-ggsem-step-by-step-procedures-for-use-cases-1-3" class="nav-link active" data-scroll-target="#ggsem-step-by-step-procedures-for-use-cases-1-3"><code>ggsem</code> Step-by-Step Procedures for Use Cases #1-3</a>
+  <li><a href="#ggsem-step-by-step-procedures-for-use-cases-1-4" id="toc-ggsem-step-by-step-procedures-for-use-cases-1-4" class="nav-link active" data-scroll-target="#ggsem-step-by-step-procedures-for-use-cases-1-4"><code>ggsem</code> Step-by-Step Procedures for Use Cases #1-4</a>
   <ul class="collapse">
   <li><a href="#case-1-multi-group-sem-visualization" id="toc-case-1-multi-group-sem-visualization" class="nav-link" data-scroll-target="#case-1-multi-group-sem-visualization">Case #1: Multi-Group SEM Visualization</a></li>
   <li><a href="#case-2-overlaid-comparison" id="toc-case-2-overlaid-comparison" class="nav-link" data-scroll-target="#case-2-overlaid-comparison">Case #2: Overlaid Comparison</a></li>
   <li><a href="#example-3-multi-paradigm-visualization" id="toc-example-3-multi-paradigm-visualization" class="nav-link" data-scroll-target="#example-3-multi-paradigm-visualization">Example #3: Multi-Paradigm Visualization</a></li>
+  <li><a href="#example-4-visualization-of-a-larger-structural-model-with-intercepts" id="toc-example-4-visualization-of-a-larger-structural-model-with-intercepts" class="nav-link" data-scroll-target="#example-4-visualization-of-a-larger-structural-model-with-intercepts">Example #4: Visualization of a Larger Structural Model with Intercepts</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -93,8 +94,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="ggsem-step-by-step-procedures-for-use-cases-1-3" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="ggsem-step-by-step-procedures-for-use-cases-1-3"><code>ggsem</code> Step-by-Step Procedures for Use Cases #1-3</h2>
+<section id="ggsem-step-by-step-procedures-for-use-cases-1-4" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="ggsem-step-by-step-procedures-for-use-cases-1-4"><code>ggsem</code> Step-by-Step Procedures for Use Cases #1-4</h2>
 <p><em>Supplementary GUI walkthroughs for the paper “ggsem<em>: A Parameter-Linked Workflow for Reproducible Visual Refinement and Comparison of Structural Models in R</em>”</em></p>
 <p>First, install and load the package into memory:</p>
 <div class="cell">
@@ -259,7 +260,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="ex2.2.png" class="img-fluid figure-img" width="1062"></p>
+<p><img src="ex2.2.png" class="img-fluid figure-img" width="1770"></p>
 <figcaption>Figure S4. Steps 3-4 of Example 2</figcaption>
 </figure>
 </div>
@@ -539,6 +540,207 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figure class="figure">
 <p><img src="example3b_final.png" class="img-fluid figure-img" width="2214"></p>
 <figcaption>Figure S10. A composite visualization with 2x2 arrangement.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="example-4-visualization-of-a-larger-structural-model-with-intercepts" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="example-4-visualization-of-a-larger-structural-model-with-intercepts">Example #4: Visualization of a Larger Structural Model with Intercepts</h3>
+<p>The metadata file can be loaded to regenerate Figure 5 using code below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem</span>(<span class="at">metadata =</span> <span class="st">"https://www.smin95.com/example4.rds"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psych)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'psych'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:lavaan':
+
+    cor2cov</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(semPlot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'semPlot' was built under R version 4.4.3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(bfi, <span class="at">package =</span> <span class="st">"psych"</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>bfi_model <span class="ot">&lt;-</span> <span class="st">'</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="st">  A =~ A1 + A2 + A3 + A4 + A5</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="st">  C =~ C1 + C2 + C3 + C4 + C5</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="st">  E =~ E1 + E2 + E3 + E4 + E5</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="st">  N =~ N1 + N2 + N3 + N4 + N5</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a><span class="st">  O =~ O1 + O2 + O3 + O4 + O5</span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="st">  A ~~ C + E + N + O</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="st">  C ~~ E + N + O</span></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="st">  E ~~ N + O</span></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="st">  N ~~ O</span></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="st">'</span></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>fit_no_intercepts <span class="ot">&lt;-</span> <span class="fu">cfa</span>(</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>  bfi_model,</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> bfi,</span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">meanstructure =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">missing =</span> <span class="st">"fiml"</span></span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: lavaan-&gt;lav_options_set():  
+   missing argument ml forces meanstructure = TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>fit_intercepts <span class="ot">&lt;-</span> <span class="fu">cfa</span>(</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  bfi_model,</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> bfi,</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">meanstructure =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">missing =</span> <span class="st">"fiml"</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>sem_no_int  <span class="ot">&lt;-</span> <span class="fu">semPaths</span>(</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>  fit_no_intercepts,</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">what =</span> <span class="st">"std"</span>,</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">whatLabels =</span> <span class="st">"std"</span>,</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">layout =</span> <span class="st">"tree"</span>,</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">intercepts  =</span> <span class="cn">FALSE</span></span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>sem_int  <span class="ot">&lt;-</span> <span class="fu">semPaths</span>(</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  fit_intercepts,</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">what =</span> <span class="st">"std"</span>,</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">whatLabels =</span> <span class="st">"std"</span>,</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">layout =</span> <span class="st">"tree"</span>,</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">intercepts  =</span> <span class="cn">TRUE</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ggsem_examples_files/figure-html/unnamed-chunk-22-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Launch ggsem app</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsem_builder</span>() <span class="sc">|&gt;</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"Without Intercept"</span>,</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> sem_no_int,</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_no_intercepts,</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">40</span>, <span class="at">height =</span> <span class="dv">40</span>,</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="sc">-</span><span class="dv">50</span>) <span class="sc">|&gt;</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_group</span>(<span class="at">name =</span> <span class="st">"With Intercept"</span>,</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>            <span class="at">object =</span> sem_int,</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>            <span class="at">model =</span> fit_intercepts,</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">"sem"</span>,</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">width =</span> <span class="dv">40</span>, <span class="at">height =</span> <span class="dv">40</span>,</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="dv">50</span>) <span class="sc">|&gt;</span></span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">launch</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex4.1.png" class="img-fluid figure-img" width="1866"></p>
+<figcaption>Figure S11. Steps 0-4 of Example 4</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="step-0-change-canvas-view" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-0-change-canvas-view">Step 0: Change canvas view</h4>
+<ol type="1">
+<li><strong>Zoom Control</strong>: <code>1.7</code> (this zooms out the canvas than the default)</li>
+<li>Click <strong>Change View</strong></li>
+</ol>
+</section>
+<section id="steps-1-2-modify-sem-layout" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="steps-1-2-modify-sem-layout">Steps 1-2: Modify SEM layout</h4>
+<p><strong>SEM Without Intercept:</strong></p>
+<ol type="1">
+<li><strong>Element Type</strong>: SEM Diagram</li>
+<li><strong>Which Group to Modify</strong>: <code>Without Intercept</code></li>
+<li><strong>SEM Layout Settings</strong>: layout = <code>tree2</code>, enable <strong>Flip SEM Layout</strong> (‘Rotate to horizontal’), Rotate = <code>90</code></li>
+<li>Click <strong>All Node</strong>, and set <code>Grayscale Muted</code> for <strong>Choose Color Palette</strong></li>
+<li>Click **Update Color Values*`**</li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+</section>
+<section id="steps-3-modify-edge-curavtures" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="steps-3-modify-edge-curavtures">Steps 3: Modify edge curavtures</h4>
+<ol type="1">
+<li><strong>Edges Curvature</strong>: select <code>A to O</code>, Curvature Size = <code>0.37</code>, Shift X = <code>-3</code>, click <strong>Apply Changes</strong></li>
+<li><strong>Edges Curvature</strong>: select <code>A to N</code> and <code>C to O</code>, Curvature Size = <code>0.33</code>, Shift X = <code>-2</code>, click <strong>Apply Changes</strong></li>
+<li><strong>Edges Curvature</strong>: select <code>A to C</code>, <code>C to E</code>, <code>E to N</code> and <code>N to O</code>, Curvature Size = <code>0.30</code>, Shift X = <code>3</code>, enable <strong>Rotate Curvature 180</strong>, click <strong>Apply Changes</strong></li>
+</ol>
+</section>
+<section id="steps-4-sem-statistics" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="steps-4-sem-statistics">Steps 4: SEM statistics</h4>
+<ol type="1">
+<li>Click <strong>Annotate Parametrer Estimates</strong> and <strong>Standardized estimates</strong> to show standardized estimates</li>
+<li>Add fit indices at <strong>X Position</strong> = <code>-39</code>, <strong>Y Position</strong> = <code>-64</code>, <strong>Horizontal Align</strong> = <code>Center</code>, <strong>Vertical Align</strong> = <code>Middle</code></li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ex4.2.png" class="img-fluid figure-img" width="1866"></p>
+<figcaption>Figure S12. Steps 5-9 of Example 4</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="steps-5-6-modify-sem-layout" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="steps-5-6-modify-sem-layout">Steps 5-6: Modify SEM layout</h4>
+<p><strong>SEM Without Intercept:</strong></p>
+<ol type="1">
+<li><strong>Element Type</strong>: SEM Diagram</li>
+<li><strong>Which Group to Modify</strong>: <code>With Intercept</code></li>
+<li><strong>SEM Layout Settings</strong>: layout = <code>tree2</code>, Rotate = <code>-90</code></li>
+<li>Click <strong>All Node</strong>, and set <code>Grayscale Bolded</code> for <strong>Choose Color Palette</strong></li>
+<li>Click **Update Color Values*`**</li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+</section>
+<section id="steps-7-modify-edge-curavtures" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="steps-7-modify-edge-curavtures">Steps 7: Modify edge curavtures</h4>
+<ol type="1">
+<li><strong>Edges Curvature</strong>: select <code>A to O</code>, Curvature Size = <code>0.33</code>, Shift X = <code>3</code>, click <strong>Apply Changes</strong></li>
+<li><strong>Edges Curvature</strong>: select <code>A to N</code> and <code>C to O</code>, Curvature Size = <code>0.3</code>, Shift X = <code>2</code>, click <strong>Apply Changes</strong></li>
+<li><strong>Edges Curvature</strong>: select <code>A to C</code>, <code>C to E</code>, <code>E to N</code> and <code>N to O</code>, Curvature Size = <code>0.30</code>, Shift X = <code>-3</code>, enable <strong>Rotate Curvature 180</strong>, click <strong>Apply Changes</strong></li>
+</ol>
+</section>
+<section id="step-8-remove-intercept-edge-labbels" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="step-8-remove-intercept-edge-labbels">Step 8: Remove intercept edge labbels</h4>
+<ol type="1">
+<li><strong>Edge Labels Text</strong>: select <code>Intercept_A to A</code>, <code>Intercept_C to C</code>, <code>Intercept_E to E</code>, <code>Intercept_N to N</code> and <code>Intercept_O to O</code> 2, Set <strong>New Label Text</strong> as nothing (no text)</li>
+<li>Click <strong>Apply changes</strong></li>
+</ol>
+</section>
+<section id="steps-9-sem-statistics" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="steps-9-sem-statistics">Steps 9: SEM statistics</h4>
+<ol type="1">
+<li>Click <strong>Annotate Parametrer Estimates</strong> and <strong>Standardized estimates</strong> to show standardized estimates</li>
+<li>Add fit indices at <strong>X Position</strong> = <code>51</code>, <strong>Y Position</strong> = <code>-64</code>, <strong>Horizontal Align</strong> = <code>Center</code>, <strong>Vertical Align</strong> = <code>Middle</code></li>
+<li>Click <strong>Apply Changes</strong></li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example4.png" class="img-fluid figure-img" width="3396"></p>
+<figcaption>Figure S13. Output of Example 4</figcaption>
 </figure>
 </div>
 </div>
